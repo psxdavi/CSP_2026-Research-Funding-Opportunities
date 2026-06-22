@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<title>MSCA Postdoctoral Fellowships 2026 — Guide for LSBU Applicants</title>
+<style>
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+  .page {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 40px;
+  }
+  h1 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 22pt; color: #002d56; border-bottom: 2px solid #e3000f; padding-bottom: 6px; margin-top: 2em; page-break-after: avoid; }
+  h2 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15pt; color: #002d56; margin-top: 1.6em; border-bottom: 1px solid #ccc; padding-bottom: 3px; page-break-after: avoid; }
+  h3 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12pt; color: #002d56; margin-top: 1.3em; page-break-after: avoid; }
+  h4 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; color: #444; margin-top: 1em; page-break-after: avoid; }
+  p { margin: 0 0 0.9em 0; text-align: justify; }
+  ul, ol { margin: 0 0 0.9em 0; padding-left: 1.8em; }
+  li { margin-bottom: 0.4em; }
+  table { width: 100%; border-collapse: collapse; margin: 1.2em 0; font-size: 10pt; page-break-inside: avoid; }
+  th { background: #002d56; color: #fff; padding: 8px 10px; text-align: left; font-family: 'Helvetica Neue', Arial, sans-serif; }
+  td { border: 1px solid #ccc; padding: 7px 10px; vertical-align: top; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  a { color: #002d56; }
+
+  /* Cover */
+  .cover { text-align: center; padding: 60px 40px 40px; border-bottom: 4px solid #e3000f; margin-bottom: 2em; }
+  .cover-logo { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 13pt; font-weight: bold; color: #e3000f; letter-spacing: 2px; margin-bottom: 0.5em; }
+  .cover-h1 { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 30pt; color: #002d56; margin: 0.3em 0; line-height: 1.15; }
+  .cover-sub { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14pt; color: #555; margin-bottom: 1.5em; }
+  .cover-rule { width: 60px; height: 3px; background: #e3000f; margin: 1em auto; }
+  .cover-meta { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10pt; color: #666; margin-top: 2em; }
+  .cover-meta table { width: auto; margin: 0 auto; }
+  .cover-meta th { background: #f2f2f2; color: #333; }
+  .cover-meta td { background: #fff; border-color: #ddd; }
+  .cover-disclaimer { font-size: 9pt; color: #999; margin-top: 2em; }
+
+  /* Callout boxes */
+  .box { border-left: 4px solid; padding: 14px 16px; margin: 1.4em 0; page-break-inside: avoid; }
+  .box-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 10.5pt; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+  .box-critical { border-color: #e3000f; background: #fff5f5; }
+  .box-critical .box-title { color: #c00; }
+  .box-critical .box-title::before { content: "⚠"; font-size: 14pt; }
+  .box-evaluator { border-color: #002d56; background: #f0f5fb; }
+  .box-evaluator .box-title { color: #002d56; }
+  .box-evaluator .box-title::before { content: "👁"; font-size: 13pt; }
+  .box-action { border-color: #1a7a1a; background: #f2faf2; }
+  .box-action .box-title { color: #1a7a1a; }
+  .box-action .box-title::before { content: "▶"; font-size: 12pt; }
+  .box-host { border-color: #7a007a; background: #faf0fa; }
+  .box-host .box-title { color: #7a007a; }
+  .box-host .box-title::before { content: "🏛"; font-size: 13pt; }
+  .box-rdm { border-color: #e67e22; background: #fdf6ec; }
+  .box-rdm .box-title { color: #c0640a; }
+  .box-rdm .box-title::before { content: "✓"; font-size: 14pt; }
+  .box-fail { border-color: #888; background: #f9f9f9; }
+  .box-fail .box-title { color: #555; }
+  .box-fail .box-title::before { content: "✗"; font-size: 14pt; color: #c00; }
+  .box-template { border: 1px dashed #999; background: #fdfdfd; padding: 14px 16px; margin: 1.4em 0; font-family: 'Courier New', Courier, monospace; font-size: 9.5pt; page-break-inside: avoid; }
+  .box-template .box-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10.5pt; font-weight: bold; color: #444; margin-bottom: 10px; }
+  .box-worksheet { background: #f5f5f5; border: 1px solid #ddd; padding: 14px 16px; margin: 1.4em 0; page-break-inside: avoid; }
+  .box-worksheet .box-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 10.5pt; font-weight: bold; color: #333; margin-bottom: 10px; }
+
+  /* Strong vs Weak */
+  .sw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 1.4em 0; }
+  .sw-weak { background: #fff5f5; border-left: 4px solid #e3000f; padding: 12px 14px; }
+  .sw-strong { background: #f2faf2; border-left: 4px solid #1a7a1a; padding: 12px 14px; }
+  .sw-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: bold; font-size: 10pt; margin-bottom: 8px; }
+  .sw-weak .sw-label { color: #c00; }
+  .sw-strong .sw-label { color: #1a7a1a; }
+
+  /* Page break */
+  .page-break { page-break-before: always; margin-top: 2em; }
+
+  /* Scoring table */
+  .score-table th { background: #002d56; }
+  .score-high td { background: #f2faf2 !important; }
+  .score-med td { background: #fffbf0 !important; }
+  .score-low td { background: #fff5f5 !important; }
+
+  /* TOC */
+  .toc-section { margin-bottom: 0.3em; }
+  .toc-main { font-weight: bold; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; }
+  .toc-sub { margin-left: 1.5em; font-size: 10pt; color: #444; }
+
+  /* Gantt */
+  .gantt { font-size: 9pt; }
+  .gantt th { font-size: 9pt; padding: 5px 6px; }
+  .gantt td { padding: 4px 6px; font-size: 9pt; }
+  .g-filled { background: #002d56 !important; color: #fff; text-align: center; }
+  .g-partial { background: #7ba7d0 !important; text-align: center; }
+  .g-training { background: #e3000f !important; color: #fff; text-align: center; }
+  .g-milestone { background: #e67e22 !important; color: #fff; text-align: center; }
+
+  /* Checklist */
+  .checklist li { list-style: none; padding-left: 0; }
+  .checklist li::before { content: "☐ "; font-size: 12pt; }
+
+  /* Footer note */
+  .footer-note { font-size: 9pt; color: #888; border-top: 1px solid #ddd; margin-top: 2em; padding-top: 0.5em; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ============================================================ COVER ============================================================ -->
+<div class="cover">
+  <div class="cover-logo">LSBU RESEARCH AWARDS &amp; DEVELOPMENT</div>
+  <h1 class="cover-h1">MSCA Postdoctoral<br>Fellowships 2026</h1>
+  <div class="cover-sub">Guide for LSBU Applicants, Supervisors &amp; Research Development Staff</div>
+  <div class="cover-rule"></div>
+  <p style="font-size:11pt; color:#555; text-align:center;">A practical guide to writing a winning proposal for the<br><strong>HORIZON-MSCA-2026-PF-01</strong> call.</p>
+  <div class="cover-meta">
+    <table>
+      <tr><th>Call Identifier</th><td>HORIZON-MSCA-2026-PF-01</td></tr>
+      <tr><th>Opening Date</th><td>9 April 2026</td></tr>
+      <tr><th>Deadline</th><td>9 September 2026, 17:00 Brussels time (16:00 UK)</td></tr>
+      <tr><th>Total Budget</th><td>EUR 399.05 million</td></tr>
+      <tr><th>Contact</th><td><a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a></td></tr>
+    </table>
+  </div>
+  <div class="cover-disclaimer">
+    Unofficial guide | For internal LSBU use only | Version 2.0 | Last verified: June 2026<br>
+    Always consult the official EC/REA documentation as the primary source.
+  </div>
+</div>
+
+<!-- ============================================================ CRITICAL RULES ============================================================ -->
+<div class="page-break">
+<h1 style="color:#e3000f; border-bottom-color:#002d56;">CRITICAL RULES</h1>
+<p><strong>Read this page before anything else.</strong> These are the four rules most likely to result in an inadmissible or unfunded proposal. They are not negotiable, not subject to appeal, and not something RAD can fix after the fact.</p>
+
+<div class="box box-critical">
+  <div class="box-title">CRITICAL RULE 1 — MOBILITY WINDOW</div>
+  <p>You must not have resided or carried out your main activity in the UK for more than <strong>12 months</strong> in the 36 months immediately before the deadline. The mobility window runs from <strong>10 September 2023 to 9 September 2026</strong>. Conference visits and short stays do not count if they were not your main activity. If you are close to the limit, contact RAD before drafting anything else. Breach of this rule = inadmissible proposal.</p>
+</div>
+
+<div class="box box-critical">
+  <div class="box-title">CRITICAL RULE 2 — 80% RESUBMISSION BLOCK</div>
+  <p>If you submitted to the 2025 call with the same beneficiary (European Fellowship) or the same beneficiary and outgoing host (Global Fellowship) and scored <strong>below 80%</strong>, you cannot resubmit to this call with those same organisations. Scored 80% or above: eligible — mark in Part A, do not reference in Part B. Application declared ineligible or inadmissible: the block does not apply. Submitted to the 2024 or earlier call: the block does not apply.</p>
+</div>
+
+<div class="box box-critical">
+  <div class="box-title">CRITICAL RULE 3 — 10-PAGE HARD LIMIT (PART B1)</div>
+  <p>Sections 1, 2, and 3 of Part B1 together must not exceed <strong>10 pages</strong>. The submission system enforces this automatically: anything beyond page 10 is made invisible after the deadline and will not be evaluated. There is no appeal. Do not attempt to circumvent this by using reduced font sizes or compressed line spacing. The minimum font size is 11pt; the minimum line spacing is single-line.</p>
+</div>
+
+<div class="box box-critical">
+  <div class="box-title">CRITICAL RULE 4 — 70% THRESHOLD PER CRITERION</div>
+  <p>Excellence, Impact, and Implementation are each scored out of 100 points by at least three independent experts. Each criterion must reach a minimum of <strong>70 points</strong>. A proposal scoring 95, 95, and 65 is <em>not funded</em>, regardless of its average. There is no way to trade a strong section against a weak one. A proposal that neglects Implementation because the researcher "doesn't have time" will fail.</p>
+</div>
+
+<div class="box box-rdm">
+  <div class="box-title">CONTACT — LSBU RESEARCH AWARDS &amp; DEVELOPMENT</div>
+  <p>For all questions about eligibility, supervisor identification, ethics timelines, costings, internal approvals, and submission: <strong><a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a></strong>. Contact RAD early. The internal approval process takes time.</p>
+</div>
+</div>
+
+<!-- ============================================================ TABLE OF CONTENTS ============================================================ -->
+<div class="page-break">
+<h1>Contents</h1>
+<div class="toc-section"><div class="toc-main">Before You Begin</div></div>
+<div class="toc-section"><div class="toc-main">1. MSCA Fellowship Essentials</div>
+  <div class="toc-sub">1.1 Call Timeline &amp; Key Facts</div>
+  <div class="toc-sub">1.2 Funding Model: Unit Costs (2026 Verified Rates)</div>
+  <div class="toc-sub">1.3 Evaluation Scoring</div>
+</div>
+<div class="toc-section"><div class="toc-main">2. Eligibility: Mobility &amp; Researcher Requirements</div>
+  <div class="toc-sub">2.1 The Mobility Rule</div>
+  <div class="toc-sub">2.2 Researcher Status</div>
+  <div class="toc-sub">2.3 The 8-Year Research Experience Limit</div>
+  <div class="toc-sub">2.4 The 80% Resubmission Rule</div>
+  <div class="toc-sub">2.5 European vs Global Fellowship Decision Aid</div>
+  <div class="toc-sub">2.6 Secondments vs Non-Academic Placements</div>
+  <div class="toc-sub">2.7 Worked Eligibility Scenarios</div>
+</div>
+<div class="toc-section"><div class="toc-main">3. The LSBU Context</div>
+  <div class="toc-sub">3.1 Why LSBU as Host</div>
+  <div class="toc-sub">3.2 LSBU Research Centres as Host Anchors</div>
+  <div class="toc-sub">3.3 Required Documents Checklist</div>
+  <div class="toc-sub">3.4 Bid Development Calendar</div>
+</div>
+<div class="toc-section"><div class="toc-main">4. The Proposal Toolkit</div>
+  <div class="toc-sub">4.1 Template, Layout &amp; Formatting Rules</div>
+  <div class="toc-sub">4.2 Part A: Administrative Forms</div>
+  <div class="toc-sub">4.3 The Abstract</div>
+  <div class="toc-sub">4.4 Common Submission Errors</div>
+</div>
+<div class="toc-section"><div class="toc-main">5. Part B1: Excellence (50%)</div>
+  <div class="toc-sub">5.1 Research Objectives &amp; State of the Art</div>
+  <div class="toc-sub">5.2 Methodology, Gender &amp; Open Science</div>
+  <div class="toc-sub">5.3 Supervision &amp; Training</div>
+</div>
+<div class="toc-section"><div class="toc-main">6. Part B1: Impact (30%)</div>
+  <div class="toc-sub">6.1 Career Perspectives &amp; Employability</div>
+  <div class="toc-sub">6.2 Dissemination, Exploitation &amp; Communication</div>
+  <div class="toc-sub">6.3 Magnitude &amp; Importance of Contribution</div>
+  <div class="toc-sub">6.4 LSBU Place-Based Impact Mapping</div>
+</div>
+<div class="toc-section"><div class="toc-main">7. Part B1: Implementation (20%)</div>
+  <div class="toc-sub">7.1 Work Plan &amp; Gantt Chart</div>
+  <div class="toc-sub">7.2 Worked Example: 24-Month European Fellowship</div>
+  <div class="toc-sub">7.3 Risk Management</div>
+  <div class="toc-sub">7.4 Host Capacity &amp; Supervision</div>
+</div>
+<div class="toc-section"><div class="toc-main">8. Part B2: Supporting Sections</div>
+  <div class="toc-sub">8.1 CV, Publications &amp; Research Experience</div>
+  <div class="toc-sub">8.2 Participating Organisations (Tables 5.1 &amp; 5.2)</div>
+  <div class="toc-sub">8.3 Skills Transfer Framework</div>
+  <div class="toc-sub">8.4 Ethics, Security &amp; Environment</div>
+  <div class="toc-sub">8.5 Letter of Commitment (Global Fellowships)</div>
+</div>
+<div class="toc-section"><div class="toc-main">9. Decision Tools &amp; Visual Resources</div></div>
+<div class="toc-section"><div class="toc-main">10. Post-Award Essentials</div></div>
+<div class="toc-section"><div class="toc-main">11. Troubleshooting FAQ</div></div>
+<div class="toc-section"><div class="toc-main">12. Checklists</div>
+  <div class="toc-sub">Applicant Checklist</div>
+  <div class="toc-sub">Supervisor Checklist</div>
+  <div class="toc-sub">RAD/RDM Review Checklist</div>
+</div>
+<div class="toc-section"><div class="toc-main">13. Glossary</div></div>
+<div class="toc-section"><div class="toc-main">14. Sources &amp; Verification Log</div></div>
+</div>
+
+<!-- ============================================================ BEFORE YOU BEGIN ============================================================ -->
+<div class="page-break">
+<h1>Before You Begin</h1>
+<p>This guide will not write your fellowship for you. LSBU's Research Awards &amp; Development (RAD) team hopes, however, that it will help you avoid the predictable errors that sink otherwise excellent applications.</p>
+<p>For every question about this call — eligibility, supervisor responsibilities, drafting, costings, or submission — contact RAD at <strong><a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a></strong>. RAD colleagues act as your first administrative point-of-contact throughout the process.</p>
+
+<h2>How to Use This Guide</h2>
+<p>Use this document alongside the official MSCA Work Programme 2026-2027, the Guide for Applicants, and the REA FAQs. This guide is supplementary and not substitutionary. Where this guide and an official EC/REA document disagree, the official document takes precedence.</p>
+<p>Key conventions throughout this guide:</p>
+<ul>
+  <li><strong>"What the Evaluator Actually Thinks" boxes</strong> synthesise reviewer commentary from published Evaluation Summary Reports.</li>
+  <li><strong>"Critical Rule" boxes</strong> flag the four rules that most commonly result in inadmissible or unfunded proposals.</li>
+  <li><strong>"Applicant Action" boxes</strong> contain tasks for the researcher.</li>
+  <li><strong>"Supervisor/Host Note" boxes</strong> contain obligations for the LSBU supervisor and host unit.</li>
+  <li><strong>"RDM Check" boxes</strong> contain internal review points for RAD staff.</li>
+  <li><strong>"Common Failure" boxes</strong> flag avoidable mistakes.</li>
+  <li><strong>"Template" boxes</strong> contain fill-in material.</li>
+</ul>
+
+<table>
+  <tr><th>Official Source</th><th>What It Contains</th></tr>
+  <tr><td>MSCA Work Programme 2026-2027</td><td>Call rules, budget, eligibility criteria, unit costs, country correction coefficients</td></tr>
+  <tr><td>Guide for Applicants 2026</td><td>Section-by-section writing instructions, evaluation criteria</td></tr>
+  <tr><td>REA FAQs (call-specific)</td><td>Clarifications on edge cases and grey areas</td></tr>
+  <tr><td>Proposal Template (Part B)</td><td>Mandatory structure, formatting rules, section headings</td></tr>
+  <tr><td><strong>This Guide</strong></td><td><strong>LSBU-specific advice, worked examples, decision tools, and templates</strong></td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 1: ESSENTIALS ============================================================ -->
+<div class="page-break">
+<h1>1. MSCA Fellowship Essentials</h1>
+
+<h2>1.1 Call Timeline &amp; Key Facts</h2>
+<table>
+  <tr><th>Item</th><th>Detail</th></tr>
+  <tr><td>Call Identifier</td><td>HORIZON-MSCA-2026-PF-01</td></tr>
+  <tr><td>Call Opens</td><td>9 April 2026</td></tr>
+  <tr><td>Submission Deadline</td><td>9 September 2026, 17:00 Brussels time (16:00 UK)</td></tr>
+  <tr><td>Total Budget</td><td>EUR 399.05 million (EUR 339.19m European; EUR 59.86m Global)</td></tr>
+  <tr><td>Mobility Window</td><td>10 September 2023 to 9 September 2026, inclusive</td></tr>
+  <tr><td>Results (indicative)</td><td>February 2027</td></tr>
+  <tr><td>Grant Start (indicative)</td><td>May 2027</td></tr>
+  <tr><td>Success Rate (2025 call)</td><td>~9.6% (over 17,000 proposals for ~1,600 funded)</td></tr>
+  <tr><td>Seal of Excellence Threshold</td><td>85% overall (not funded but quality-labelled)</td></tr>
+</table>
+
+<div class="box box-critical">
+  <div class="box-title">The Deadline is Absolute</div>
+  <p>The Funding &amp; Tenders Portal closes at 17:00 Brussels time on 9 September 2026. There is no grace period. There is no extension. A proposal submitted at 17:01 is not evaluated. Plan your internal LSBU approval process to be complete at least <strong>five working days before the deadline</strong>.</p>
+</div>
+
+<h2>1.2 Funding Model: Unit Costs (2026 Verified Rates)</h2>
+<p>MSCA PF 2026 retains the unit-cost model. The lump-sum simplification from the main Horizon Europe Work Programme does not apply. The living allowance is subject to a Country Correction Coefficient (CCC). The UK CCC for the 2026-2027 Work Programme is <strong>143.5%</strong>, applied to the base living allowance of EUR 6,350/month.</p>
+
+<table>
+  <tr><th>Cost Category</th><th>Base Rate (EUR/month)</th><th>UK-Adjusted Rate</th><th>Notes</th></tr>
+  <tr><td>Living allowance</td><td>EUR 6,350</td><td><strong>EUR 9,112</strong></td><td>Gross amount. CCC applied. Subject to national tax and social security deductions. Approx. £7,808/month at 2025 average EUR/GBP rate.</td></tr>
+  <tr><td>Mobility allowance</td><td>EUR 710</td><td>EUR 710 (fixed)</td><td>Private mobility-related costs. Not country-adjusted.</td></tr>
+  <tr><td>Family allowance</td><td>EUR 660</td><td>EUR 660 (fixed)</td><td>If applicable. Declared in Part A.</td></tr>
+  <tr><td>Long-term leave allowance</td><td>EUR 7,060 × % covered</td><td>Variable</td><td>If applicable. Rare.</td></tr>
+  <tr><td>Special needs allowance</td><td>Requested unit × (1/months)</td><td>Variable</td><td>Pre-defined categories: EUR 3,000 to EUR 60,000.</td></tr>
+  <tr><td>Research, training &amp; networking</td><td>EUR 1,000</td><td>EUR 1,000 (fixed)</td><td>Managed by LSBU for project costs. Not country-adjusted.</td></tr>
+  <tr><td>Management &amp; indirect costs</td><td>EUR 650</td><td>EUR 650 (fixed)</td><td>Retained by LSBU. Not country-adjusted.</td></tr>
+</table>
+
+<div class="box box-fail">
+  <div class="box-title">Common Failure — Wrong Country Correction Coefficient</div>
+  <p>Using the wrong CCC is one of the most common budget errors. The UK CCC for 2026-2027 is <strong>143.5%</strong>. Do not use the 2024-2025 rate (141.7%) or any other year's figure. The correct rate is in the MSCA Work Programme 2026-2027 annex. The budget table in Part A calculates automatically once you enter the correct host country.</p>
+</div>
+
+<h2>1.3 Evaluation Scoring</h2>
+<p>Three criteria, each scored 0–100 by at least three independent experts. The 70% threshold applies to each criterion independently.</p>
+
+<table class="score-table">
+  <tr><th>Criterion</th><th>Weight</th><th>Part B Section</th><th>Minimum Score</th></tr>
+  <tr class="score-high"><td><strong>Excellence</strong></td><td>50%</td><td>Section 1 (1.1, 1.2, 1.3)</td><td>70/100</td></tr>
+  <tr class="score-med"><td><strong>Impact</strong></td><td>30%</td><td>Section 2 (2.1, 2.2, 2.3)</td><td>70/100</td></tr>
+  <tr class="score-low"><td><strong>Implementation</strong></td><td>20%</td><td>Section 3 (3.1, 3.2)</td><td>70/100</td></tr>
+</table>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks</div>
+  <p>"The 70% threshold is the most important number in this call. I have seen proposals with 90% on Excellence fail because the applicant treated Implementation as an afterthought. A Gantt chart with no training activities, no deliverable dates, and no risk register is not a work plan. It is a list of intentions. It scores 60%."</p>
+</div>
+</div>
+
+<!-- ============================================================ SECTION 2: ELIGIBILITY ============================================================ -->
+<div class="page-break">
+<h1>2. Eligibility: Mobility &amp; Researcher Requirements</h1>
+
+<h2>2.1 The Mobility Rule</h2>
+<p>You must not have resided or carried out your main activity in the UK for more than 12 months in the 36 months immediately before the deadline. The mobility window runs from <strong>10 September 2023 to 9 September 2026</strong>. Any time in the UK during this period counts toward the 12-month limit. Conference visits and short stays do not count if they were not your main activity.</p>
+
+<div class="box-worksheet">
+  <div class="box-title">Mobility Eligibility Self-Check Worksheet</div>
+  <table>
+    <tr><th>Step</th><th>Your Entry</th><th>Notes</th></tr>
+    <tr><td>1. Were you based in the UK between 10 Sept 2023 and 9 Sept 2026?</td><td>Yes / No</td><td>If No, you are eligible. If Yes, continue.</td></tr>
+    <tr><td>2. List all UK stays (start date → end date)</td><td>Stay 1: ___/___/___ to ___/___/___<br>Stay 2: ___/___/___ to ___/___/___</td><td>Use dd/mm/yyyy format</td></tr>
+    <tr><td>3. Total days in UK (sum of all stays)</td><td>_______ days</td><td>Must be ≤ 365 days</td></tr>
+    <tr><td>4. Is total &gt; 365 days?</td><td>Yes / No</td><td>If Yes: ineligible for European Fellowship at LSBU. Contact RAD.</td></tr>
+  </table>
+  <p style="margin-top:0.8em; font-size:9.5pt; color:#555;">This worksheet is indicative only. Use the official REA Self-Assessment Tool to confirm. Contact RAD at <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a> for a formal pre-submission eligibility check.</p>
+</div>
+
+<h2>2.2 Researcher Status</h2>
+<p>You must hold a doctoral degree or have unconditionally defended your thesis before the application deadline of 9 September 2026. The defence must be unconditional: no further requirements or corrections that need to be addressed. Supporting documentation may be requested.</p>
+<ul>
+  <li><strong>European Fellowships:</strong> any nationality is eligible.</li>
+  <li><strong>Global Fellowships:</strong> you must be a national or long-term resident of an EU Member State or Horizon Europe Associated Country. Long-term residence means at least five consecutive years of legal and continuous residence.</li>
+</ul>
+
+<h2>2.3 The 8-Year Research Experience Limit</h2>
+<p>A maximum of eight years of full-time equivalent (FTE) research experience from the date of your first doctoral degree award. The following can be deducted with documentary evidence:</p>
+
+<table>
+  <tr><th>Deduction Category</th><th>Evidence Required</th><th>Notes</th></tr>
+  <tr><td>Maternity, paternity, and parental leave</td><td>HR letter, payslips, or statutory documentation</td><td>Unlimited deduction</td></tr>
+  <tr><td>Compulsory national service</td><td>Official documentation</td><td>Full period deductible</td></tr>
+  <tr><td>Long-term sick leave exceeding 30 days</td><td>Medical certificate or HR records</td><td>Full period deductible</td></tr>
+  <tr><td>Periods not working in research</td><td>Explanation in CV</td><td>Explain clearly in CV; do not leave gaps unexplained</td></tr>
+  <tr><td>Research conducted in a non-associated Third Country</td><td>Employment contract or equivalent</td><td>Reintegration cases only (European Fellowship)</td></tr>
+  <tr><td>Career breaks</td><td>Justified and explained in CV</td><td>Must be genuine breaks from research</td></tr>
+</table>
+
+<div class="box box-critical">
+  <div class="box-title">Refugee Status Treatment (Verified)</div>
+  <p>Researchers displaced by conflict benefit from <strong>mobility-rule flexibility</strong>: time spent in the country while waiting for refugee status under the Geneva Convention does not count toward the 12-month mobility limit. However, refugee status is <strong>not a distinct deduction category</strong> for the 8-year FTE research experience limit. Applicants must rely on the standard deduction categories above (e.g., "periods not working in research"). Contact your MSCA National Contact Point (NCP) via RAD for a pre-submission eligibility assessment.</p>
+</div>
+
+<div class="box-worksheet">
+  <div class="box-title">8-Year FTE Research Experience Calculation Worksheet</div>
+  <table>
+    <tr><th>Calculation Step</th><th>Your Value</th><th>Notes</th></tr>
+    <tr><td>Date of first doctoral degree award</td><td>__/__/____</td><td>Must match Part A exactly (dd/mm/yyyy)</td></tr>
+    <tr><td>Total calendar months since award</td><td>_______</td><td>Auto-calculated from above</td></tr>
+    <tr><td>Less: maternity / parental leave</td><td>_______</td><td>Unlimited; documentary evidence required</td></tr>
+    <tr><td>Less: compulsory national service</td><td>_______</td><td>Documentary evidence required</td></tr>
+    <tr><td>Less: long-term sick leave (&gt;30 days)</td><td>_______</td><td>Documentary evidence required</td></tr>
+    <tr><td>Less: periods not working in research</td><td>_______</td><td>Explain in CV</td></tr>
+    <tr><td>Less: Third Country research (reintegration)</td><td>_______</td><td>EF reintegration only</td></tr>
+    <tr><td>Less: career breaks</td><td>_______</td><td>Justified; explain in CV</td></tr>
+    <tr><td><strong>NET RESEARCH EXPERIENCE (months)</strong></td><td><strong>_______</strong></td><td><strong>Must be &lt; 96 months (8.0 years). Warning if 90–96 months.</strong></td></tr>
+  </table>
+  <p style="margin-top:0.8em; font-size:9.5pt; color:#555;">This worksheet is indicative only. Always verify with the official REA Self-Assessment Tool. If your net experience is between 7.5 and 8.0 years, contact RAD immediately.</p>
+</div>
+
+<h2>2.4 The 80% Resubmission Rule</h2>
+<p>If you submitted to the 2025 call with the same beneficiary (and the same outgoing host for Global Fellowships) and scored below 80%, you cannot resubmit to this call with those same organisations.</p>
+
+<table>
+  <tr><th>Previous Call Outcome</th><th>Score / Status</th><th>2026 Eligibility</th><th>Required Action</th></tr>
+  <tr><td>Submitted 2025 PF</td><td>Not scored (below threshold)</td><td>ELIGIBLE to resubmit</td><td>Treat as new proposal</td></tr>
+  <tr><td>Submitted 2025 PF</td><td>Scored &lt; 80%</td><td>BLOCKED from resubmitting</td><td>Change beneficiary (EF) or beneficiary + outgoing host (GF)</td></tr>
+  <tr><td>Submitted 2025 PF</td><td>Scored ≥ 80%</td><td>ELIGIBLE to resubmit</td><td>Mark in Part A; include previous ID. Do not reference in Part B.</td></tr>
+  <tr><td>Submitted 2025 PF</td><td>Ineligible / inadmissible</td><td>ELIGIBLE (exempt)</td><td>Mark in Part A. No threshold applies.</td></tr>
+  <tr><td>Submitted 2024 or earlier</td><td>Any score</td><td>ELIGIBLE</td><td>80% rule applies to 2025 call only</td></tr>
+</table>
+
+<h2>2.5 European vs Global Fellowship Decision Aid</h2>
+<table>
+  <tr><th>Dimension</th><th>European Fellowship (EF)</th><th>Global Fellowship (GF)</th></tr>
+  <tr><td>Who can apply</td><td>Any nationality</td><td>Nationals or long-term residents of EU MS or HE AC only</td></tr>
+  <tr><td>Where you work</td><td>EU Member State or HE Associated Country (UK eligible)</td><td>Outgoing phase in a non-associated Third Country; return phase in EU MS or HE AC</td></tr>
+  <tr><td>Duration</td><td>12–24 months</td><td>24–36 months (12–24m outgoing + 12m mandatory return)</td></tr>
+  <tr><td>Budget</td><td>EUR 339.19m</td><td>EUR 59.86m</td></tr>
+  <tr><td>Letter of commitment</td><td>Not required</td><td>Mandatory from outgoing host. Absence = inadmissible.</td></tr>
+  <tr><td>Secondments</td><td>Up to 50% of standard duration; anywhere; any sector</td><td>Up to 50% of outgoing phase; not during return phase</td></tr>
+  <tr><td>LSBU role</td><td>Beneficiary (main host)</td><td>Beneficiary (return-phase host)</td></tr>
+</table>
+
+<h2>2.6 Secondments vs Non-Academic Placements</h2>
+<p>These are two distinct mechanisms with separate rules. They are not interchangeable. Confusing them is one of the most common structural errors in Part A.</p>
+
+<table>
+  <tr><th>Dimension</th><th>Secondment</th><th>Non-Academic Placement (NAP)</th></tr>
+  <tr><td>Timing</td><td>Any time during the standard fellowship</td><td>Additional period <em>after</em> the standard fellowship ends</td></tr>
+  <tr><td>Duration cap</td><td>Up to 50% of standard duration</td><td>Maximum 6 months</td></tr>
+  <tr><td>Sector</td><td>Academic OR Non-Academic</td><td>Non-Academic ONLY</td></tr>
+  <tr><td>Location</td><td>Worldwide</td><td>EU Member State or Horizon Europe Associated Country only</td></tr>
+  <tr><td>Part A encoding</td><td>Do NOT encode as an associated partner. Indicate secondment is planned; outline in Part B only.</td><td>Must encode as associated partner. Host needs a PIC number.</td></tr>
+  <tr><td>Budget impact</td><td>Counted within standard duration</td><td>Additional funded period; separate budget line</td></tr>
+</table>
+
+<div class="box box-fail">
+  <div class="box-title">Common Failure — Secondment Host Added as Associated Partner in Part A</div>
+  <p>Secondment hosts do not need a PIC number and must not be entered as associated partners in Part A. Only non-academic placement hosts require a PIC. Adding a secondment host as an associated partner is a common administrative error that will be flagged during eligibility checks.</p>
+</div>
+
+<h2>2.7 Worked Eligibility Scenarios</h2>
+
+<h4>Scenario A: UK-based researcher applying for European Fellowship at LSBU</h4>
+<p>Dr Amara Diallo completed her PhD in Dakar in 2019 and has been based at the University of Edinburgh since October 2023. She wants to apply for a European Fellowship at LSBU. Her UK stay runs from October 2023 to September 2026 — approximately 35 months. This exceeds the 12-month limit. <strong>She is ineligible for a European Fellowship at LSBU.</strong> She could apply for a European Fellowship at an institution in another EU Member State or Associated Country where she has not been based.</p>
+
+<h4>Scenario B: Researcher close to the 8-year limit</h4>
+<p>Dr Yuki Tanaka was awarded her PhD in March 2018. By September 2026 she will have 8 years and 6 months of calendar time since her doctorate. However, she took 14 months of maternity leave in 2020-2021 and 6 months of parental leave in 2023. With these deductions, her net FTE research experience is 7 years and 10 months. <strong>She is eligible</strong>, but should use the REA Self-Assessment Tool and gather all documentary evidence before submitting.</p>
+
+<h4>Scenario C: Resubmission from 2025 call</h4>
+<p>Dr Carlos Mendes submitted a European Fellowship application to LSBU in 2025 and scored 78%. He cannot resubmit to LSBU in 2026. He could, however, submit to a different UK institution (e.g., King's College London) as the beneficiary, provided he meets the mobility rule for that institution's country.</p>
+
+<h4>Scenario D: Global Fellowship applicant</h4>
+<p>Dr Priya Sharma is an Indian national who has been a long-term resident of the UK for the past 7 years. She wants to spend 18 months at MIT (USA) and then return to LSBU for 12 months. She is eligible for a Global Fellowship: she is a long-term resident of a Horizon Europe Associated Country (UK), MIT is in a non-associated Third Country (USA), and LSBU would be her return-phase host. She must obtain a signed letter of commitment from MIT before submission.</p>
+</div>
+
+<!-- ============================================================ SECTION 3: LSBU CONTEXT ============================================================ -->
+<div class="page-break">
+<h1>3. The LSBU Context</h1>
+
+<h2>3.1 Why LSBU as Host</h2>
+<p>LSBU sits at Elephant &amp; Castle, embedded in Southwark's innovation ecosystem. The 50% secondment rule makes this geography materially valuable: Guy's and St Thomas' NHS Foundation Trust, King's College Hospital, Southwark Council, and the Greater London Authority are all within commutable range. Do not describe this as a generic urban advantage. Name the specific partner, the specific asset they provide, and the specific research objective it serves.</p>
+<p>LSBU has a strong track record in Knowledge Transfer Partnerships (KTP), consistently ranking among the UK's most active KTP providers. This is proven institutional capacity for the intersectoral secondment structure that the 2026 call now permits at greater scale. If relevant, frame Southwark as a living lab for place-based research on health inequalities, urban sustainability, and social mobility. Evaluators recognise proximity to policy and practice partners as a genuine asset when the proposal demonstrates how it will be used.</p>
+
+<div class="box box-host">
+  <div class="box-title">Supervisor/Host Note — What LSBU Can Genuinely Claim</div>
+  <p>Do not write generic institutional boilerplate. The following are defensible, specific claims for LSBU host capacity statements:</p>
+  <ul>
+    <li>LSBU Pure (Elsevier RIMS): institutional repository for open-access publication compliance and REF preparation.</li>
+    <li>LSBU KTP Office: structured pathways to NHS Trusts, local authorities, and industry partners in SE1 and beyond.</li>
+    <li>LSBU Library: open-access support, bibliometrics, and research data management guidance.</li>
+    <li>EURAXESS-aligned career services: mobility support, researcher networking, ResearchComp framework.</li>
+    <li>Proximity to Southwark Council, GLA, Guy's and St Thomas' NHS Foundation Trust, King's College Hospital.</li>
+  </ul>
+</div>
+
+<h2>3.2 LSBU Research Centres as Host Anchors</h2>
+<p>Align your proposal with one of LSBU's five research centres. The centre provides the institutional context for your host capacity statement (Table 5.2) and your impact pathway. Do not describe a centre in generic terms. Name the specific lab, equipment, dataset, or network that is relevant to your project.</p>
+
+<table>
+  <tr><th>Research Centre</th><th>Relevant MSCA PF Research Areas</th><th>Specific Assets to Name</th></tr>
+  <tr><td><strong>Bioscience &amp; Bioengineering</strong></td><td>LIF, CHE, ENG panels</td><td>Specific lab facilities, equipment, clinical data partnerships with NHS Trusts</td></tr>
+  <tr><td><strong>Building Future Communities</strong></td><td>SOC, ENV, ENG panels</td><td>Southwark housing data, GLA partnerships, urban planning networks</td></tr>
+  <tr><td><strong>Digital × Data</strong></td><td>ENG, MAT, ECO panels</td><td>Computing infrastructure, datasets, industry partnerships, AI/ML capabilities</td></tr>
+  <tr><td><strong>Energy, Materials &amp; Environment</strong></td><td>ENV, ENG, CHE, PHY panels</td><td>Materials characterisation equipment, energy-systems datasets, net-zero partnerships</td></tr>
+  <tr><td><strong>Health &amp; Wellbeing</strong></td><td>LIF, SOC panels</td><td>NHS data access, community health networks, Southwark public health partnerships</td></tr>
+</table>
+
+<div class="box box-action">
+  <div class="box-title">Applicant Action — Verify Your Host Capacity Claims</div>
+  <p>Name one asset listed in your capacity table that you have not personally verified exists and is accessible. Write one sentence describing when you will verify it. Do this before you submit a draft to your supervisor. Evaluators will ask whether the infrastructure is genuinely available to the fellow, not merely available at the institution.</p>
+</div>
+
+<h2>3.3 Required Documents Checklist</h2>
+<ul class="checklist">
+  <li>Part A (administrative forms) completed and consistent with Part B</li>
+  <li>Part B1 (technical description, max 10 pages) — PDF, using current MSCA PF 2026 template</li>
+  <li>Part B2 (CV, participating organisations, ethics, environment) — PDF, using current template</li>
+  <li>CV of researcher (max 5 pages, included in Part B2)</li>
+  <li>Table 5.1 (overview of participating organisations)</li>
+  <li>Table 5.2 (capacity of each participating organisation): LSBU max 1 page; each associated partner max ½ page</li>
+  <li>Ethics self-assessment (Part A and Part B2 Section 6)</li>
+  <li>Environmental considerations (Part B2 Section 8, max ½ page)</li>
+  <li>Letter of commitment from outgoing host (Global Fellowships only — mandatory; absence = inadmissible)</li>
+  <li>LSBU internal approval obtained (contact RAD)</li>
+</ul>
+
+<h2>3.4 Bid Development Calendar</h2>
+<p>The internal LSBU approval process takes time. Do not treat the submission deadline as your personal writing deadline.</p>
+
+<table>
+  <tr><th>Milestone</th><th>Target Date</th><th>Owner</th></tr>
+  <tr><td>Initial contact with RAD; eligibility check</td><td>By end of May 2026</td><td>Applicant + RAD</td></tr>
+  <tr><td>Supervisor identified and confirmed in writing</td><td>By end of May 2026</td><td>Applicant</td></tr>
+  <tr><td>First draft of Part B1 (all three sections)</td><td>By end of July 2026</td><td>Applicant</td></tr>
+  <tr><td>RAD internal review of Part B1</td><td>First week of August 2026</td><td>RAD</td></tr>
+  <tr><td>Revised draft incorporating RAD feedback</td><td>Mid-August 2026</td><td>Applicant</td></tr>
+  <tr><td>Part B2 complete (CV, tables, ethics)</td><td>Mid-August 2026</td><td>Applicant + Supervisor</td></tr>
+  <tr><td>Part A complete and verified</td><td>Late August 2026</td><td>Applicant + RAD</td></tr>
+  <tr><td>Final internal approval</td><td>1 September 2026</td><td>RAD</td></tr>
+  <tr><td>Submission to F&amp;T Portal</td><td>By 5 September 2026</td><td>Applicant</td></tr>
+  <tr><td>Deadline</td><td>9 September 2026, 17:00 Brussels</td><td>—</td></tr>
+</table>
+
+<div class="box box-rdm">
+  <div class="box-title">RDM Check — Internal Approval Lead Time</div>
+  <p>LSBU's internal approval process requires sign-off from the School Research Director and the Research &amp; Innovation Office. Allow a minimum of <strong>five working days</strong> for this process. Contact RAD at <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a> to initiate the process no later than 1 September 2026.</p>
+</div>
+</div>
+
+<!-- ============================================================ SECTION 4: TOOLKIT ============================================================ -->
+<div class="page-break">
+<h1>4. The Proposal Toolkit</h1>
+
+<h2>4.1 Template, Layout &amp; Formatting Rules</h2>
+<p>Use the Part B template downloaded from the Funding &amp; Tenders Portal after 9 April 2026. Using a template from a different action or call year could affect the evaluation of your proposal.</p>
+
+<table>
+  <tr><th>Rule</th><th>Requirement</th></tr>
+  <tr><td>Page size</td><td>A4. All margins at least 15mm.</td></tr>
+  <tr><td>Font</td><td>Times New Roman (or equivalent serif). Minimum 11pt body text.</td></tr>
+  <tr><td>Table text</td><td>Minimum 11pt. Gantt chart text may go to 8pt.</td></tr>
+  <tr><td>Headers, footnotes, captions</td><td>Minimum 8pt; must be legible.</td></tr>
+  <tr><td>Line spacing</td><td>Single-line minimum. Standard character spacing.</td></tr>
+  <tr><td>Page numbers</td><td>Footer: "Part B - Page X of Y". No cover page or TOC in Part B.</td></tr>
+  <tr><td>Diagrams</td><td>Ensure legibility when printed in black and white.</td></tr>
+  <tr><td>Hyperlinks</td><td>Avoid. Evaluators are instructed to ignore them.</td></tr>
+</table>
+
+<div class="box box-critical">
+  <div class="box-title">Part B1 Page Limit</div>
+  <p>Sections 1, 2, and 3 together: <strong>10 pages maximum</strong>. Hard limit. The submission system automatically enforces this. Excess pages are made invisible after the deadline and will not be evaluated. There is no appeal. Minimum font size 11pt; minimum line spacing single-line.</p>
+</div>
+
+<h3>Writing Tips</h3>
+<ul>
+  <li><strong>Use a memorable acronym:</strong> this is how your proposal will be referred to in the reviewer panel's discussion. You cannot change it after submission. Test it for unintended meanings in other languages.</li>
+  <li><strong>Keywords determine evaluator assignment.</strong> Choose with strategic intent across your interdisciplinary scope. The first two descriptors must be linked to your selected panel; others can come from other panels.</li>
+  <li><strong>Avoid jargon.</strong> Explain abbreviations once. Use simple, clear text. Non-specialists may read this.</li>
+  <li><strong>Be consistent with terminology throughout.</strong> The first person (I/me) or third person (the researcher) are both acceptable. Avoid first-person plural (we): this is your individual fellowship.</li>
+  <li><strong>Do not copy-paste from other documents.</strong> Every sentence should be written for this proposal.</li>
+  <li><strong>Ensure diagrams are legible</strong> when printed in black and white.</li>
+</ul>
+
+<h2>4.2 Part A: Administrative Forms</h2>
+<p>Part A is not a formality. It is an integral part of your proposal. Common oversights:</p>
+<ul>
+  <li><strong>Acronym:</strong> choose carefully. You cannot change it. Test it for unintended meanings in other languages.</li>
+  <li><strong>Keywords:</strong> these select your evaluators. Choose strategically across your interdisciplinary scope. First 3 descriptors are mandatory; first 2 must be linked to your selected panel.</li>
+  <li><strong>Panel:</strong> select the evaluation panel that best matches your research (CHE, ECO, ENG, ENV, LIF, MAT, PHY, SOC).</li>
+  <li><strong>Publications (Section 4):</strong> list up to 5 publications for the host organisation or department — the supervisor's key papers, not yours. Do not confuse this with your own publication record in the CV.</li>
+  <li><strong>Previous projects:</strong> list relevant ongoing or completed projects demonstrating institutional capacity.</li>
+  <li><strong>Budget table:</strong> ensure all durations are correct. Wrong durations are the single most common budget error.</li>
+  <li><strong>Ensure exact consistency</strong> between Part A and Part B on dates, institutions, and project details.</li>
+</ul>
+
+<h2>4.3 The Abstract</h2>
+<p>Maximum 2,000 characters including spaces. Write it for evaluators, not for a specialist journal. Keep it accessible, persuasive, and jargon-free.</p>
+
+<div class="box-template">
+  <div class="box-title">Annotated Abstract Template</div>
+  <p><em>[Area] is a critical challenge because [specific problem, with evidence]...</em> (Context: 1 sentence)</p>
+  <p><em>This fellowship aims to [O1] and [O2] using [approach] at LSBU, hosted by [supervisor/centre]...</em> (Objectives: 1–2 sentences)</p>
+  <p><em>The project combines [A] with [B] to [aim], including a [duration] secondment at [host] to access [specific asset]...</em> (Methodology &amp; Implementation: 2 sentences)</p>
+  <p><em>The results will inform [specific target group], contributing to [specific advancement], while enhancing the fellow's career by developing [specific skill] and positioning them for [career goal]...</em> (Impact: 1–2 sentences)</p>
+</div>
+
+<h3>Abstract Mistakes to Avoid</h3>
+<ul>
+  <li>Starting with a definition of your field. The evaluator knows what bioinformatics is.</li>
+  <li>Using all 2,000 characters. Brevity signals clarity of thought.</li>
+  <li>Mentioning your career development plan. The abstract is about the research, not your aspirations.</li>
+  <li>Including citations. The abstract is not a literature review.</li>
+  <li>Using acronyms without expansion. Non-specialists may read this.</li>
+</ul>
+
+<h2>4.4 Common Submission Errors</h2>
+<p>The REA publishes a document on common mistakes. Read it. Then read it again.</p>
+
+<table>
+  <tr><th>Error Type</th><th>Specific Error</th><th>Consequence</th></tr>
+  <tr><td rowspan="5">Administrative</td><td>Wrong fellowship type encoded (Global vs European)</td><td>Inadmissible</td></tr>
+  <tr><td>Associated partner for Global Fellowship outgoing phase in an Associated Country instead of a non-associated Third Country</td><td>Inadmissible</td></tr>
+  <tr><td>Researcher and supervisor are the same person</td><td>Inadmissible</td></tr>
+  <tr><td>Missing abstract, panel, or keywords</td><td>Inadmissible</td></tr>
+  <tr><td>Secondments added as associated partners in Part A</td><td>Flagged; may affect evaluation</td></tr>
+  <tr><td rowspan="4">Budget &amp; Duration</td><td>Wrong durations encoded (EF duration, GF phases, placement duration)</td><td>Budget errors; evaluator concern</td></tr>
+  <tr><td>Wrong country correction coefficient</td><td>Budget errors</td></tr>
+  <tr><td>Non-academic placements in Third Countries</td><td>Ineligible placement</td></tr>
+  <tr><td>Missing Letter of Commitment (Global Fellowships)</td><td>Inadmissible</td></tr>
+  <tr><td rowspan="2">Formatting</td><td>Exceeding the 10-page limit for Part B1</td><td>Excess pages not evaluated</td></tr>
+  <tr><td>Font smaller than 11pt</td><td>Flagged; may affect evaluation</td></tr>
+</table>
+</div>
+
+</div><!-- end .page -->
+
+
+<!-- ============================================================ SECTION 5: EXCELLENCE ============================================================ -->
+<div class="page-break">
+<h1>5. Part B1: Excellence (50% Weighting)</h1>
+<p>Section 1 is where you prove you are a serious researcher with a genuinely important question. It carries the heaviest intellectual weight of the proposal. It is also where the most common failure mode occurs: impressive-sounding prose that does not answer the evaluator's actual question.</p>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks</div>
+  <p>"I read hundreds of proposals each year. Those that score above 90% do not begin with grand claims about the European Research Area. They begin with a precise, evidence-based statement of what the applicant will do, why it matters now, and why they are the best person to do it. The state of the art is not a literature review. It is a structured argument for why this project is necessary."</p>
+</div>
+
+<h2>5.1 Research Objectives &amp; State of the Art</h2>
+
+<h3>Quality and Pertinence of Objectives</h3>
+<p>Your objectives must be measurable, verifiable, and realistically achievable. Name the policy framework, health burden, emissions target, or industrial gap you are addressing. Be specific about why this matters now.</p>
+<p>Number your objectives O1, O2, O3 and map each to a research work package in brackets (e.g., O1 [WP1]). Evaluators should be able to trace every objective through to a specific task in your Gantt chart.</p>
+
+<div class="sw-grid">
+  <div class="sw-weak">
+    <div class="sw-label">✗ Weak Formulation</div>
+    <p>"This project will revolutionise our understanding of urban heat islands using novel data approaches."</p>
+    <p style="font-size:9.5pt; color:#888;"><em>Evaluator: Hyperbolic, unmeasurable, vague. What does "revolutionise" mean? What data? What approach?</em></p>
+  </div>
+  <div class="sw-strong">
+    <div class="sw-label">✓ Strong Formulation</div>
+    <p>"Objective 1 [WP1]: To quantify micro-climate variance across three Southwark housing estates by deploying a 50-node IoT sensor network over 12 months, producing a validated dataset for urban heat-island modelling."</p>
+    <p style="font-size:9.5pt; color:#888;"><em>Evaluator: Specific, measurable, linked to a WP, time-bounded.</em></p>
+  </div>
+</div>
+
+<h3>Going Beyond the State of the Art</h3>
+<p>Break the state of the art into short paragraphs, one per research objective. For each:</p>
+<ol>
+  <li>Outline the current knowledge level with up-to-date references (2023–2026 should dominate).</li>
+  <li>Identify the specific gap, limitation, or unanswered question.</li>
+  <li>State how your project addresses it — methodologically distinct, evidence-filling, or building on your prior work.</li>
+  <li>Finish with a bold statement of exactly how the project advances the field.</li>
+</ol>
+<p><strong>Prohibited formulations:</strong> do not use hyperbolic adjectives to describe your work. Instead, write that it is methodologically distinct, addresses an evidence gap, or builds upon your prior work on a specific problem.</p>
+
+<h2>5.2 Methodology, Gender &amp; Open Science</h2>
+
+<h3>Overall Methodology</h3>
+<p>Describe and explain your overall methodology, including concepts, models, and assumptions. Be specific about experiments, techniques, and equipment. If secondments or placements are included, justify exactly why: use of equipment, access to data, acquisition of techniques, or exposure to policy or industry practice.</p>
+<p>You do not have space to describe everything in detail, but you must give enough to show how the research will be conducted. Use graphics where appropriate — but ensure they are legible when printed in black and white.</p>
+
+<h3>Integration of Methods and Disciplines</h3>
+<p>Explain how expertise from different disciplines will be brought together. If interdisciplinarity is unnecessary, provide a justification. Listing disciplines is not interdisciplinarity. Show how a technique or dataset from one discipline generates a hypothesis, question, or analytical constraint that the other discipline is equipped to test or resolve. If you cannot describe that exchange in one sentence, the interdisciplinarity is not yet real.</p>
+
+<h3>Gender Dimension and Diversity</h3>
+<p>The question is not "does my research involve people?" It is: "would my findings change, or my methods require modification, if I disaggregated by sex or gender?" Use this four-question framework:</p>
+<ol>
+  <li><strong>Does sex or gender shape the phenomenon you are studying?</strong> In health, behaviour, social, and language research the answer is almost always yes. In some computational, materials, or physical science contexts it may be no, but state why explicitly.</li>
+  <li><strong>Could your data, sample, or model carry a hidden sex/gender bias?</strong> Training datasets, clinical cohorts, and historical records frequently over-represent one sex. If you are using such sources, state what the bias is and how you will address it.</li>
+  <li><strong>Does your methodology produce differentiated outputs by sex or gender, or does it aggregate by default?</strong> Aggregation is not neutral: it reproduces existing inequalities. If you aggregate, justify it.</li>
+  <li><strong>Do your results carry different implications for different groups?</strong> A drug dosage study or a language model trained on gendered corpora will have asymmetric impacts. Name them.</li>
+</ol>
+<p>If questions 1–4 all return no, write a short, argued justification. Do not write "gender is not relevant to this research." Write: "This study measures [X] in [material/system/process]. The phenomenon operates at [level] and does not vary by the biological sex of any participant, nor are gender norms embedded in the analytical framework, for the following reason: [reason]." That is a strong justification. "Gender is not relevant" is not.</p>
+
+<div class="box box-evaluator">
+  <div class="box-title">Worked Example — Gender Dimension</div>
+  <p><strong>Researcher A</strong> is developing a machine learning model to predict hospital readmission rates from electronic health records. The initial inclination is to treat gender as irrelevant because the model is computational, not clinical. This is wrong. Readmission rates differ by sex due to differences in symptom presentation, pain reporting behaviour, and discharge decision-making by clinical staff. The training data are drawn from a hospital cohort in which certain conditions (e.g., cardiac events) were historically under-diagnosed in women. The model will inherit this bias unless corrected. The researcher commits to training and validating separate submodels by sex and reporting disaggregated performance metrics. This scores well because it is specific, evidenced, and integrated into the research design.</p>
+  <p><strong>Researcher B</strong> is working on the corrosion resistance of a novel aluminium alloy at high temperature. Questions 1–4 return no: the physical and chemical processes are not sex- or gender-differentiated, no human participants are involved, and no differential social impact is plausible. Researcher B writes a four-sentence justification explaining exactly this. This also scores well, because it is argued rather than absent.</p>
+  <p><strong>The section that scores poorly</strong> is the one that writes "we acknowledge the importance of gender equality" and stops there. That is not a justification. It is a sentence that signals the researcher has not thought about the question.</p>
+</div>
+
+<h3>Open Science Practices</h3>
+<p>You have approximately half a page for open science, including research data management. Make them count.</p>
+<ul>
+  <li>State which repository you will use for publications, data, and outputs. <strong>LSBU uses Pure (Elsevier RIMS)</strong> as its institutional repository.</li>
+  <li>Name the licence (CC BY, CC BY-NC, etc.).</li>
+  <li>Include a Data Management Plan (DMP) as a mandatory deliverable by month 6.</li>
+  <li>State your approach to FAIR principles for data, models, and papers.</li>
+  <li>Mention reproducibility measures: code repositories, workflow documentation, pre-registration if appropriate.</li>
+</ul>
+
+<div class="box box-fail">
+  <div class="box-title">Common Failure — Vague Open Science Statement</div>
+  <p>"We will make our data available in accordance with FAIR principles." This scores 60%. A strong statement names the repository (LSBU Pure), the licence (CC BY), the timeline (DMP by month 6, data deposited on publication), and the specific challenge (e.g., patient data requires anonymisation under GDPR before deposition).</p>
+</div>
+
+<h2>5.3 Supervision &amp; Training</h2>
+
+<h3>Supervisor Qualifications</h3>
+<p>Provide the supervisor's key achievements: years in the field, awards, international collaborations, coordinated projects, publications in key journals, H-index, patents, and number of supervised researchers. Include a success story if one exists. Are their former supervisees now in leading positions?</p>
+<p>If including a co-supervisor, explain their added value. Roles must be clearly defined and complementary. Refer explicitly to the <strong>MSCA Guidelines on Supervision</strong> and the <strong>2023 European Charter for Researchers</strong> (Pillar 4). State that you will adhere to them.</p>
+
+<div class="box box-host">
+  <div class="box-title">Supervisor/Host Note — Supervisor Obligations</div>
+  <p>By agreeing to supervise an MSCA PF fellow, you commit to: developing a Career Development Plan (CDP) with the fellow by month 6; providing regular, structured feedback; supporting the fellow's access to training and networking; adhering to the MSCA Guidelines on Supervision; and supporting the fellow's career development beyond the fellowship. These are not aspirational commitments. They are grant conditions.</p>
+</div>
+
+<h3>Planned Training Activities</h3>
+<p>Identify skill gaps and match them to specific training opportunities. The best training plans connect demonstrated gaps to concrete solutions:</p>
+<ul>
+  <li><strong>Scientific skills:</strong> new techniques and methods, acquired through research or specific courses. Name the courses and the institution offering them.</li>
+  <li><strong>Transferable skills:</strong> teaching, project management, proposal writing, international collaboration, IP, gender awareness. Name the specific training programme at LSBU or elsewhere.</li>
+  <li><strong>Career Development Plan:</strong> becomes a mandatory deliverable by month 6. Describe your needs and career goals. Be honest about gaps.</li>
+</ul>
+</div>
+
+<!-- ============================================================ SECTION 6: IMPACT ============================================================ -->
+<div class="page-break">
+<h1>6. Part B1: Impact (30% Weighting)</h1>
+<p>Section 2 is where most proposals scoring 90% on Excellence collapse to 75% overall. The difference is not ambition; it is specificity. Vague impact language is the single most common reason for a proposal to score below 70% on this criterion.</p>
+
+<h2>6.1 Career Perspectives &amp; Employability (Section 2.1)</h2>
+<p>Describe specific measures to enhance career perspectives and employability inside and outside academia. Where do you want to go in the long term, and how does this project contribute to it?</p>
+
+<div class="sw-grid">
+  <div class="sw-weak">
+    <div class="sw-label">✗ Weak</div>
+    <p>"This fellowship will significantly enhance my career prospects and make me more competitive in the academic job market."</p>
+  </div>
+  <div class="sw-strong">
+    <div class="sw-label">✓ Strong</div>
+    <p>"The fellowship will develop my competency in [specific technique] — currently absent from my skill set — enabling me to apply for a Lecturer position in [specific field] at a research-intensive UK institution. The 6-month secondment at [NHS Trust] will provide intersectoral experience required for the NIHR fellowship pathway I am targeting in 2028."</p>
+  </div>
+</div>
+
+<h2>6.2 Dissemination, Exploitation &amp; Communication (Section 2.2)</h2>
+<p>These are three distinct activities. Confusing them is a common error. Anchor all activities in specific LSBU infrastructure and named partners.</p>
+
+<table>
+  <tr><th>Activity Type</th><th>Definition</th><th>Target Audience</th><th>LSBU/Local Example</th></tr>
+  <tr><td><strong>Communication</strong></td><td>About the project and its activities; starts at the beginning; for non-expert audiences</td><td>General public, schools, community groups</td><td>Public engagement event in SE1; school visit in Lambeth; LSBU social media channels</td></tr>
+  <tr><td><strong>Dissemination</strong></td><td>About results only; when results are available; for professional audiences</td><td>Scientific community, practitioners</td><td>Open-access dataset deposited in LSBU Pure; presentation at [named conference]; journal publication in [named journal]</td></tr>
+  <tr><td><strong>Exploitation</strong></td><td>Use and uptake of results; commercial or policy application</td><td>Industry, NHS, policymakers, regulators</td><td>Policy briefing to Southwark Council or GLA; KTP-facilitated workshop with Guy's and St Thomas' NHS Trust; patent application if applicable</td></tr>
+</table>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks</div>
+  <p>"I want to see a table. Not a list of activities, but a table with: activity, target audience, timing (M12, M18, etc.), location, and a KPI. 'We will publish in high-impact journals' is not a plan. 'We will submit two peer-reviewed articles to [named journal] by M18 and M24, deposited in LSBU Pure under CC BY' is a plan."</p>
+</div>
+
+<div class="box-template">
+  <div class="box-title">Dissemination Activity Table Template</div>
+  <table style="font-size:9pt;">
+    <tr><th>Activity</th><th>Target Audience</th><th>Timing</th><th>Location/Channel</th><th>KPI</th></tr>
+    <tr><td>[Conference name in full]</td><td>[e.g., Clinical researchers, NHS practitioners]</td><td>M14</td><td>[City/Country if known]</td><td>Oral presentation; abstract accepted</td></tr>
+    <tr><td>[Journal article]</td><td>[e.g., Materials scientists]</td><td>M18</td><td>[Journal name]</td><td>Submitted; deposited in Pure under CC BY</td></tr>
+    <tr><td>[Policy briefing]</td><td>[e.g., Southwark Council Housing Dept]</td><td>M20</td><td>Southwark, London</td><td>Briefing delivered; follow-up meeting scheduled</td></tr>
+    <tr><td>[Public engagement event]</td><td>[e.g., SE1 community groups]</td><td>M12</td><td>LSBU campus / SE1</td><td>50+ attendees; post-event survey completed</td></tr>
+  </table>
+</div>
+
+<h3>IP Management</h3>
+<p>IP management should be proportionate. If you expect no patentable inventions, say so explicitly. If you expect software outputs, state the licence (e.g., MIT, Apache 2.0). If you expect commercially exploitable results, name the LSBU Technology Transfer contact and the pathway.</p>
+
+<h2>6.3 Magnitude &amp; Importance of Contribution (Section 2.3)</h2>
+<p>This subsection asks you to quantify and contextualise the importance of your project's contribution to scientific, societal, and economic impacts. The Honest PI Standard requires four components for every impact assertion:</p>
+<ol>
+  <li>A <strong>specific target group</strong> (e.g., Southwark Council Housing Department, not "policymakers").</li>
+  <li>A <strong>measurable indicator</strong> (e.g., one policy briefing delivered, three datasets deposited).</li>
+  <li>A <strong>plausible mechanism</strong> linking your results to the claimed impact.</li>
+  <li>A <strong>candid acknowledgement</strong> of what will <em>not</em> change as a result of the fellowship.</li>
+</ol>
+<p>Proposals that meet all four components score higher on credibility. Proposals that omit component 4 are read as naive.</p>
+
+<h2>6.4 LSBU Place-Based Impact Mapping</h2>
+<p>LSBU's location in SE1 is a genuine asset for place-based impact. Use it. Do not describe it generically.</p>
+
+<table>
+  <tr><th>Impact Route</th><th>Specific LSBU/Local Mechanism</th><th>Relevant Research Centre</th></tr>
+  <tr><td>NHS workforce &amp; clinical practice</td><td>Secondment at Guy's and St Thomas' NHS Foundation Trust or King's College Hospital; NIHR pathway</td><td>Health &amp; Wellbeing; Bioscience &amp; Bioengineering</td></tr>
+  <tr><td>Net-zero &amp; green skills</td><td>Partnership with Southwark Council sustainability team; GLA Green New Deal</td><td>Energy, Materials &amp; Environment</td></tr>
+  <tr><td>Social mobility &amp; community health</td><td>Southwark public health data; community engagement in SE1 postcodes</td><td>Health &amp; Wellbeing; Building Future Communities</td></tr>
+  <tr><td>Urban planning &amp; housing</td><td>Southwark Council Housing Department; GLA data partnerships</td><td>Building Future Communities</td></tr>
+  <tr><td>Digital &amp; data innovation</td><td>LSBU KTP Office; industry partners in SE1 innovation ecosystem</td><td>Digital × Data</td></tr>
+  <tr><td>Professional practice</td><td>LSBU professional programmes; CPD partnerships with NHS Trusts and local authorities</td><td>All centres</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 7: IMPLEMENTATION ============================================================ -->
+<div class="page-break">
+<h1>7. Part B1: Implementation (20% Weighting)</h1>
+<p>Section 3 is where you prove you can actually do this in 24 months with the resources available. It is assessed for realism, not ambition. A proposal that is intellectually brilliant but operationally incoherent will not score 70%.</p>
+
+<h2>7.1 Work Plan &amp; Gantt Chart</h2>
+<p>Include a Gantt chart with minimum 8pt font. The chart must include:</p>
+<ul>
+  <li>Research work packages (R-WP) with clear titles and objectives.</li>
+  <li>Secondments and placements: timing, host, and duration.</li>
+  <li>Training activities (scientific and transferable skills).</li>
+  <li>Major deliverables: DMP by month 6, CDP by month 6, dissemination/exploitation plan in the penultimate month.</li>
+  <li>Milestones with specific months.</li>
+</ul>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks — Work Packages</div>
+  <p>"For a 24-month mono-beneficiary fellowship, I expect 2–3 research work packages. More than 3 suggests the researcher has not thought carefully about what is achievable. Fewer than 2 suggests the project lacks structure. Each WP should have a clear objective, a set of tasks, and at least one deliverable or milestone."</p>
+</div>
+
+<h2>7.2 Worked Example: 24-Month European Fellowship at LSBU</h2>
+<p>The following is a schematic Gantt chart for a 24-month European Fellowship. Adapt to your specific project.</p>
+
+<table class="gantt">
+  <tr>
+    <th style="width:28%;">Work Package / Activity</th>
+    <th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th><th>M6</th>
+    <th>M7</th><th>M8</th><th>M9</th><th>M10</th><th>M11</th><th>M12</th>
+    <th>M13</th><th>M14</th><th>M15</th><th>M16</th><th>M17</th><th>M18</th>
+    <th>M19</th><th>M20</th><th>M21</th><th>M22</th><th>M23</th><th>M24</th>
+  </tr>
+  <tr>
+    <td><strong>WP1: [Research Phase 1]</strong></td>
+    <td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td>
+    <td class="g-filled">■</td><td class="g-filled">■</td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td><strong>WP2: [Research Phase 2]</strong></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td>
+    <td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td><strong>WP3: [Analysis &amp; Dissemination]</strong></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td>
+    <td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td><td class="g-filled">■</td>
+  </tr>
+  <tr>
+    <td><strong>Secondment [Host, Sector]</strong></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td class="g-partial">▪</td><td class="g-partial">▪</td><td class="g-partial">▪</td><td class="g-partial">▪</td>
+    <td class="g-partial">▪</td><td class="g-partial">▪</td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td><strong>Training (Scientific)</strong></td>
+    <td class="g-training">T</td><td class="g-training">T</td><td></td><td></td><td></td><td></td>
+    <td></td><td></td><td></td><td class="g-training">T</td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td class="g-training">T</td><td></td>
+    <td></td><td></td><td></td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td><strong>Training (Transferable)</strong></td>
+    <td></td><td class="g-training">T</td><td></td><td class="g-training">T</td><td></td><td></td>
+    <td></td><td></td><td></td><td></td><td class="g-training">T</td><td></td>
+    <td></td><td></td><td class="g-training">T</td><td></td><td></td><td></td>
+    <td></td><td></td><td class="g-training">T</td><td></td><td></td><td></td>
+  </tr>
+  <tr>
+    <td><strong>Milestones &amp; Deliverables</strong></td>
+    <td></td><td></td><td></td><td></td><td></td><td class="g-milestone">DMP CDP</td>
+    <td></td><td></td><td></td><td></td><td></td><td class="g-milestone">M1</td>
+    <td></td><td></td><td></td><td></td><td></td><td class="g-milestone">M2</td>
+    <td></td><td></td><td></td><td></td><td class="g-milestone">D&amp;E</td><td class="g-milestone">Final</td>
+  </tr>
+</table>
+<p style="font-size:9pt; color:#555;">■ = Research WP active | ▪ = Secondment | T = Training | DMP = Data Management Plan | CDP = Career Development Plan | D&amp;E = Dissemination &amp; Exploitation Plan | M1/M2 = Project Milestones</p>
+
+<div class="box box-action">
+  <div class="box-title">Applicant Action — Strategic Honesty Clause</div>
+  <p>Identify one week in your proposed timeline where the schedule is impossible as written. Find it. Fix it. If you cannot find it, show the Gantt chart to a colleague who has managed a project before and ask them to find it for you. A Gantt chart that has never been stress-tested is not a work plan.</p>
+</div>
+
+<h3>Scores Well vs Costs Points</h3>
+<table>
+  <tr><th>✓ Scores Well</th><th>✗ Costs Points</th></tr>
+  <tr><td>Realistic, well-structured work plan linked to objectives</td><td>Overly ambitious: too many work packages for 24 months</td></tr>
+  <tr><td>Complete Gantt with secondments, training, and deliverables</td><td>Gantt missing key elements (training, secondments, deliverables)</td></tr>
+  <tr><td>Host capacity evidenced, not asserted</td><td>Host capacity described in generic terms</td></tr>
+  <tr><td>Project-specific risks with appropriate mitigation</td><td>Generic risks (COVID-19, Brexit) without project-specific mitigation</td></tr>
+  <tr><td>Clear two-way knowledge transfer between researcher and host</td><td>Secondment host role poorly defined, no clear added value</td></tr>
+</table>
+
+<h2>7.3 Risk Management</h2>
+<p>Risk management is not a formality. Identify critical risks, assess likelihood and severity, and describe mitigations that are already in place or concrete to implement. Risk sections that list "COVID-19" or "Brexit" as risks without specific mitigation are lazy. The best risk sections identify risks that are particular to this project in this place with this researcher.</p>
+
+<div class="box-template">
+  <div class="box-title">Risk Register Template</div>
+  <table style="font-size:9.5pt;">
+    <tr><th>Risk</th><th>Likelihood (H/M/L)</th><th>Impact (H/M/L)</th><th>Mitigation</th><th>Owner</th></tr>
+    <tr><td>Delayed LSBU School-level ethics approval</td><td>M</td><td>H</td><td>Application drafted in Month 1; parallel non-human data work scheduled for Months 1–3. Allow 8–12 weeks (contact RAD).</td><td>Applicant + RAD</td></tr>
+    <tr><td>Delayed NHS REC/HRA approval</td><td>M</td><td>H</td><td>Pre-engagement with NHS Trust prior to start date; fallback dataset identified. Allow 3–6 months.</td><td>Applicant + RAD</td></tr>
+    <tr><td>Secondment host restructuring or withdrawal</td><td>L</td><td>M</td><td>Alternative partner in Southwark ecosystem identified with similar capabilities. Named in proposal.</td><td>Applicant + Supervisor</td></tr>
+    <tr><td>[Project-specific risk 1]</td><td>—</td><td>—</td><td>[Specific mitigation]</td><td>—</td></tr>
+    <tr><td>[Project-specific risk 2]</td><td>—</td><td>—</td><td>[Specific mitigation]</td><td>—</td></tr>
+  </table>
+</div>
+
+<div class="box box-rdm">
+  <div class="box-title">RDM Check — LSBU Ethics Approval Timelines</div>
+  <p>LSBU School-level ethics approval: allow <strong>8–12 weeks</strong>. NHS REC and HRA approval: <strong>3–6 months</strong>. Factor this into your Gantt chart. Contact RAD (<a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a>) for guidance on the appropriate committee before you start drafting your methodology section.</p>
+</div>
+
+<h2>7.4 Host Capacity &amp; Supervision</h2>
+<p>Describe the hosting arrangements: the supervisor's role, the research environment, and the institutional support for the fellow's career development. Evaluators assess whether the beneficiary has the capacity to support the research. They want specific facilities, equipment, and resources relevant to the project — not a generic brochure.</p>
+
+<table>
+  <tr><th>LSBU Unit / Resource</th><th>Role in Your Project</th></tr>
+  <tr><td>LSBU Research &amp; Innovation Office</td><td>EU grant preparation, contract negotiation, post-award management, REA liaison</td></tr>
+  <tr><td>LSBU Pure (Elsevier RIMS)</td><td>Publication and data deposition, public profiles, REF compliance, open-access management</td></tr>
+  <tr><td>LSBU KTP Office</td><td>Intersectoral collaboration pathways to NHS Trusts, local authorities, industry</td></tr>
+  <tr><td>LSBU Library</td><td>Open-access support, bibliometrics, research data management guidance</td></tr>
+  <tr><td>Your Research Group</td><td>[Insert: specific lab, equipment, facilities relevant to your project]</td></tr>
+  <tr><td>EURAXESS-Aligned Services</td><td>Career development, mobility support, researcher networking</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 8: PART B2 ============================================================ -->
+<div class="page-break">
+<h1>8. Part B2: Supporting Sections</h1>
+<p>Part B2 contains the practical and administrative material that supports your scientific case. Do not treat it as an afterthought. Inconsistencies between Part A and Part B2 are red flags for evaluators.</p>
+
+<h2>8.1 CV, Publications &amp; Research Experience</h2>
+<p>Indicative length: 5 pages. Structure your CV to make the evaluator's job easy:</p>
+<ul>
+  <li><strong>Education:</strong> reverse chronological. Include the exact date of doctoral degree award (must match Part A exactly, in dd/mm/yyyy format).</li>
+  <li><strong>Research experience:</strong> reverse chronological. Dates, institution, one-line description of responsibilities.</li>
+  <li><strong>Publications:</strong> reverse chronological. Highlight first-author and corresponding-author papers. Include DOIs. Provide a brief qualitative assessment of significance — do not use Journal Impact Factor.</li>
+  <li><strong>Presentations:</strong> selected invited talks and conference presentations.</li>
+  <li><strong>Awards and funding:</strong> competitive fellowships, prizes, grants.</li>
+  <li><strong>Other:</strong> languages, technical skills, professional memberships, non-academic experience.</li>
+</ul>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks — CV Consistency</div>
+  <p>"The CV is read quickly but carefully. I look for consistency: if Part A says the doctorate was awarded in March 2020 and the CV says March 2021, that is a red flag. If the publication list in Part A (the host's papers) does not match the CV (the researcher's papers), I note it. These are not the same list. Confusing them is a common error."</p>
+</div>
+
+<div class="box box-action">
+  <div class="box-title">Applicant Action — CV Consistency Check</div>
+  <p>Check your CV against Part A right now. Is the date of doctorate award identical in both (dd/mm/yyyy)? Are the 5 publications in Part A the supervisor's papers, not yours? Is your own publication record in the CV complete and consistent? If not, fix it before you read another word.</p>
+</div>
+
+<h3>Publications and Open Access</h3>
+<p>List up to 5 publications in Part A (host organisation/supervisor's papers, not yours). Include your full publication record in the CV. Every publication should be deposited in LSBU Pure with open access where possible. If a publication is not yet open access, state the plan and timeline.</p>
+
+<h2>8.2 Participating Organisations (Tables 5.1 &amp; 5.2)</h2>
+<p>Table 5.1 provides an overview of all participating organisations. Table 5.2 provides detailed capacity information for each. <strong>Strict limits apply:</strong></p>
+<ul>
+  <li>Table 5.2 for the beneficiary (LSBU): maximum <strong>1 page</strong>.</li>
+  <li>Table 5.2 for each associated partner (e.g., Global Fellowship outgoing host, NAP host): maximum <strong>½ page</strong>.</li>
+  <li>Text beyond these limits will be disregarded by evaluators to ensure equal treatment.</li>
+</ul>
+
+<div class="box-template">
+  <div class="box-title">LSBU Host Capacity Statement Strategy (Table 5.2 — max 1 page)</div>
+  <p>Do not copy-paste generic university boilerplate. Specify:</p>
+  <ul>
+    <li>The exact lab, equipment, or dataset you will access (not "state-of-the-art facilities").</li>
+    <li>The supervisor's specific track record in MSCA/EU projects and postdoc supervision.</li>
+    <li>LSBU Pure (Elsevier RIMS) for Open Access compliance and REF preparation.</li>
+    <li>LSBU KTP Office pathways for intersectoral impact.</li>
+    <li>Up to 5 relevant EU, national, or international research projects in which LSBU has participated.</li>
+    <li>Specific named partners in the Southwark innovation ecosystem relevant to your project.</li>
+  </ul>
+</div>
+
+<div class="box-template">
+  <div class="box-title">Secondment Host Template (under the 50% Rule)</div>
+  <p>For each secondment host, include:</p>
+  <ul>
+    <li>Name and sector (academic/non-academic).</li>
+    <li>Specific assets, equipment, data, or expertise provided.</li>
+    <li>How the secondment contributes to research objectives and two-way knowledge transfer.</li>
+    <li>The supervisor's role during the secondment.</li>
+  </ul>
+  <p><em>Note: Secondment hosts do not need a PIC number and must not be entered as associated partners in Part A.</em></p>
+</div>
+
+<h2>8.3 Skills Transfer Framework</h2>
+<p>Frame two-way knowledge transfer between the researcher and LSBU for Sections 1.3 and 5.2.</p>
+
+<table>
+  <tr><th>Researcher Brings to LSBU</th><th>LSBU Provides to Researcher</th></tr>
+  <tr><td>Specialised techniques and methods from prior work</td><td>Pure/RDM proficiency for REF-compliant output management</td></tr>
+  <tr><td>International networks and collaborations</td><td>KTP access: structured pathways to NHS, councils, enterprises</td></tr>
+  <tr><td>Datasets and analytical pipelines</td><td>Civic-engagement methods: policy briefing, place-based research</td></tr>
+  <tr><td>Publications for joint authorship</td><td>MSCA-aligned supervisory mentoring and training</td></tr>
+  <tr><td>Teaching contributions and curriculum development</td><td>EURAXESS career services and follow-on funding support</td></tr>
+</table>
+
+<h2>8.4 Ethics, Security &amp; Environment</h2>
+
+<h3>Ethics Information (Part B2 Section 6)</h3>
+<p>If your research involves activities raising ethics issues, complete this section. Even if you believe there are no issues, state this explicitly and explain why. Common issues requiring scrutiny:</p>
+<ul>
+  <li>Human participants (interviews, surveys, experiments, observation).</li>
+  <li>Human cells, tissues, or personal data (health records, genetic data, biometric data).</li>
+  <li>Animals (vertebrates and cephalopods).</li>
+  <li>Research in non-EU countries (dual-use technologies, indigenous communities).</li>
+  <li>Security concerns (pathogens, toxins, sensitive dual-use technologies).</li>
+  <li>Children, vulnerable adults, or prisoners.</li>
+</ul>
+
+<div class="box box-critical">
+  <div class="box-title">Ethics Timing Warning</div>
+  <p>LSBU School-level ethics approval takes 8–12 weeks. NHS REC/HRA approval takes 3–6 months. If your project requires ethics approval, factor this into your Gantt chart. Do not assume approval will be granted before the project starts. Contact RAD at <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a> for guidance on the appropriate committee.</p>
+</div>
+
+<h3>Security Screening (Part B2 Section 7)</h3>
+<p>Complete this section if your proposal involves activities or results that may raise security concerns: research involving certain non-EU countries, dual-use technologies, or sensitive data.</p>
+
+<h3>Environmental Considerations (Part B2 Section 8 — max ½ page)</h3>
+<p>The updated MSCA Green Charter (October 2025) sets out non-binding principles. Do not treat this section as a formality. The evaluator will read it.</p>
+
+<table>
+  <tr><th>Research Type</th><th>Principle</th><th>Practical Action</th></tr>
+  <tr><td>Travel</td><td>Most sustainable option; justify all international travel</td><td>Prioritise rail under 800km; virtual participation where equivalent</td></tr>
+  <tr><td>Events</td><td>Default virtual or hybrid; sustainable venues</td><td>Local catering; minimise printed materials</td></tr>
+  <tr><td>Computational</td><td>Optimise energy use</td><td>Energy-efficient computing; cloud providers with renewable commitments</td></tr>
+  <tr><td>Lab-based</td><td>Reduce waste; sustainable procurement</td><td>Shared consumables; energy-efficient equipment</td></tr>
+  <tr><td>Fieldwork</td><td>Minimise travel; local collaborators</td><td>Digital data collection; local partners for fieldwork</td></tr>
+  <tr><td>Data</td><td>Sustainable data management</td><td>Minimise redundant storage; energy-efficient data centres</td></tr>
+</table>
+
+<div class="box box-evaluator">
+  <div class="box-title">What the Evaluator Actually Thinks — Environmental Section</div>
+  <p>"The environmental section is assessed for credibility, not length. A proposal that says 'we will minimise travel' without saying how scores 60%. A proposal that says 'all international conference attendance will be virtual; UK secondments will use rail; the DMP includes a data-retention schedule' scores 90%."</p>
+</div>
+
+<h2>8.5 Letter of Commitment (Global Fellowships Only)</h2>
+<p>The outgoing host must provide a letter of commitment. Absence of this letter renders the proposal <strong>inadmissible</strong>.</p>
+<p>Minimum requirements:</p>
+<ul>
+  <li>On institutional letterhead with stamp or signature.</li>
+  <li>Up-to-date: not dated prior to the call publication (9 April 2026).</li>
+  <li>References the specific call: HORIZON-MSCA-2026-PF-01.</li>
+  <li>Demonstrates the will to actively participate in the identified proposal.</li>
+  <li>Explains the precise role of the outgoing host.</li>
+  <li>Signed by an authorised representative.</li>
+</ul>
+
+<div class="box-template">
+  <div class="box-title">Non-Binding Template — Letter of Commitment for GF Associated Partner</div>
+  <p>I undersigned [title, first name and surname], in my quality of [role in the organisation] in [name of the organisation] commit to set up all necessary provisions to participate as associated partner in the proposal [proposal number and/or acronym] submitted to the call HORIZON-MSCA-2026-PF, should the proposal be funded.</p>
+  <p>On behalf of [name of the organisation], I also confirm that we will participate and contribute to the research, innovation and training activities as planned in this project. In particular, [name of the organisation] will be involved in [free field: describe role and contribution, including infrastructure, supervision capacity, and specific activities].</p>
+  <p>I hereby declare that I am entitled to commit into this process the entity I represent.</p>
+  <p><em>Name, Date, Signature</em></p>
+</div>
+</div>
+
+<!-- ============================================================ SECTION 9: DECISION TOOLS ============================================================ -->
+<div class="page-break">
+<h1>9. Decision Tools &amp; Visual Resources</h1>
+
+<h2>Academic vs Non-Academic Secondment Comparison</h2>
+<table>
+  <tr><th>Dimension</th><th>Academic Secondment</th><th>Non-Academic Placement</th><th>Hybrid (50% Rule)</th></tr>
+  <tr><td>Typical Host</td><td>University or research institute</td><td>Industry, NHS, policy body, NGO</td><td>Academic + non-academic within cap</td></tr>
+  <tr><td>Key Outputs</td><td>Publications, datasets, methods</td><td>Policy briefs, prototypes, reports</td><td>Dual-track: publications + policy</td></tr>
+  <tr><td>Career Signal</td><td>Academic track; network growth</td><td>Intersectoral mobility; policy readiness</td><td>Both: credibility + academic depth</td></tr>
+  <tr><td>LSBU Alignment</td><td>REF via Pure; standard OA</td><td>KTP credit; impact case studies</td><td>Maximum REF + KTP value</td></tr>
+</table>
+
+<h2>Skills Transfer Diagram</h2>
+<table>
+  <tr><th>Imported (Researcher Brings)</th><th>Exported (LSBU Provides)</th></tr>
+  <tr><td>Specialised techniques from doctoral/prior postdoc work</td><td>Pure/RDM proficiency for publications, data, outputs</td></tr>
+  <tr><td>International networks and collaborations</td><td>KTP/industry access: NHS Trusts, councils, enterprises</td></tr>
+  <tr><td>Datasets and analytical pipelines</td><td>Civic-engagement methods: policy briefing, place-based research</td></tr>
+  <tr><td>Publications and pre-prints for joint authorship</td><td>Supervisory mentoring: MSCA Guidelines + 2023 Charter</td></tr>
+  <tr><td>Teaching contributions and curriculum development</td><td>Career development: EURAXESS, follow-on funding, ResearchComp</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 10: POST-AWARD ============================================================ -->
+<div class="page-break">
+<h1>10. Post-Award Essentials</h1>
+<p>Winning the fellowship is the beginning, not the end. Here is your timeline of obligations:</p>
+
+<table>
+  <tr><th>Milestone</th><th>Timing</th><th>Requirement</th></tr>
+  <tr><td>Project Start</td><td>Month 1</td><td>Researcher recruited within 30 days of Grant Agreement start</td></tr>
+  <tr><td>First Progress Report</td><td>Month 3</td><td>Light-touch monitoring to REA</td></tr>
+  <tr><td>Data Management Plan</td><td>Month 6</td><td>Submit via LSBU Pure. Mandatory deliverable. FAIR principles.</td></tr>
+  <tr><td>Career Development Plan</td><td>Month 6</td><td>Developed with supervisor. Updated annually. Mandatory deliverable.</td></tr>
+  <tr><td>Annual Scientific Report</td><td>Mid-project</td><td>Progress against objectives, deliverables, milestones</td></tr>
+  <tr><td>Communication &amp; Exploitation Plan</td><td>Penultimate month</td><td>Document activities undertaken and outcomes</td></tr>
+  <tr><td>Final Report</td><td>Final month</td><td>Results, outputs, impact. All publications in Pure with open access.</td></tr>
+</table>
+
+<p>Throughout the project: comply with the MSCA Green Charter, the 2023 European Charter for Researchers, and the LSBU Research Data Management Policy.</p>
+
+<h2>Evaluation Process &amp; Results</h2>
+<p>Your proposal will be assigned to at least 3 independent experts (up to 5) based on your chosen descriptors and keywords. Each expert writes an Individual Evaluation Report. All assigned experts then meet for a consensus discussion and draft a Consensus Report / Evaluation Summary Report (ESR). The ESR is the document you will receive if your proposal is evaluated.</p>
+<p>If your proposal scores 85% or above but is not funded due to budget constraints, you will receive the <strong>MSCA Seal of Excellence</strong> — a quality label that can help you attract other funders. Specific support schemes exist for Seal of Excellence holders.</p>
+
+<h2>Resubmission Strategy</h2>
+<p>If your proposal is not funded:</p>
+<ul>
+  <li>Read the ESR carefully. Identify the specific weaknesses named by the evaluators.</li>
+  <li>If you scored ≥ 80%, you can resubmit to the next call with the same beneficiary. Mark the resubmission in Part A. Do not reference the previous submission in Part B.</li>
+  <li>If you scored &lt; 80%, you must change the beneficiary (EF) or beneficiary + outgoing host (GF) to be eligible for the next call.</li>
+  <li>Contact RAD to discuss your ESR and plan your resubmission strategy.</li>
+</ul>
+</div>
+
+<!-- ============================================================ SECTION 11: FAQ ============================================================ -->
+<div class="page-break">
+<h1>11. Troubleshooting FAQ</h1>
+
+<table>
+  <tr><th>Problem</th><th>Solution</th></tr>
+  <tr><td>Cannot find a supervisor at LSBU in my research area</td><td>Contact RAD at <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a>. They can facilitate introductions across Schools. Consider co-supervision with an external partner.</td></tr>
+  <tr><td>8-year FTE is close to the limit</td><td>Use the REA Self-Assessment Tool. Gather all documentary evidence. Contact RAD, who will arrange a formal pre-submission check with your MSCA National Contact Point.</td></tr>
+  <tr><td>Secondment host does not have a PIC number</td><td>Secondment hosts do not need a PIC. Only non-academic placement hosts need a PIC. Do not add secondment hosts as associated partners in Part A.</td></tr>
+  <tr><td>Unsure if research requires ethics approval</td><td>If in doubt, assume it does. Contact RAD. Allow 8–12 weeks for institutional ethics; 3–6 months for NHS REC.</td></tr>
+  <tr><td>Proposal is 11 pages and I cannot cut to 10</td><td>The limit is enforced automatically. Cut mercilessly: remove redundant sentences, tighten the state-of-the-art, move supplementary material to Part B2.</td></tr>
+  <tr><td>Scored &lt; 80% in 2025 call — can I resubmit?</td><td>Not with the same beneficiary (EF) or same beneficiary + outgoing host (GF). Contact RAD to identify an alternative host institution.</td></tr>
+  <tr><td>Not sure whether to apply for EF or GF</td><td>Use the decision aid in Section 2.5. Key factors: your nationality/residency status, where you want to work, and whether you have a third-country partner willing to provide a letter of commitment.</td></tr>
+  <tr><td>My supervisor has never supervised an MSCA fellow before</td><td>This is not disqualifying. Describe their track record in the research area and in supervising postdocs generally. Refer to the MSCA Guidelines on Supervision and state that you will adhere to them.</td></tr>
+  <tr><td>I am not sure which LSBU research centre to align with</td><td>Contact RAD. They can advise on the most appropriate centre and facilitate introductions to relevant supervisors.</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 12: CHECKLISTS ============================================================ -->
+<div class="page-break">
+<h1>12. Checklists</h1>
+
+<h2>Applicant Checklist</h2>
+<ul class="checklist">
+  <li>Eligibility confirmed: mobility rule, 8-year FTE, resubmission restriction</li>
+  <li>Supervisor identified and confirmed in writing</li>
+  <li>LSBU research centre identified and host capacity verified</li>
+  <li>Fellowship type (EF or GF) decided and justified</li>
+  <li>Secondment and/or NAP planned and justified (if applicable)</li>
+  <li>Part B template downloaded from F&amp;T Portal (current version)</li>
+  <li>Abstract written (max 2,000 characters)</li>
+  <li>Keywords chosen strategically (first 3 mandatory; first 2 linked to selected panel)</li>
+  <li>Part B1: all three sections drafted within 10-page limit</li>
+  <li>Objectives numbered (O1, O2, O3) and mapped to WPs</li>
+  <li>State of the art structured (one paragraph per objective)</li>
+  <li>Gender dimension addressed or justified</li>
+  <li>Open science practices described (repository, licence, DMP timeline)</li>
+  <li>Gantt chart complete (WPs, secondments, training, deliverables, milestones)</li>
+  <li>Risk register complete (project-specific risks, not generic)</li>
+  <li>CV complete (5 pages max; dates consistent with Part A)</li>
+  <li>Table 5.1 and 5.2 complete (LSBU ≤ 1 page; partners ≤ ½ page each)</li>
+  <li>Ethics self-assessment complete (Part A and Part B2 Section 6)</li>
+  <li>Environmental considerations complete (Part B2 Section 8, ≤ ½ page)</li>
+  <li>Letter of commitment obtained (Global Fellowships only)</li>
+  <li>Part A consistent with Part B (dates, institutions, project details)</li>
+  <li>Internal LSBU approval obtained (contact RAD)</li>
+  <li>Submitted to F&amp;T Portal by 5 September 2026</li>
+</ul>
+
+<h2>Supervisor Checklist</h2>
+<ul class="checklist">
+  <li>Confirmed willingness to supervise in writing</li>
+  <li>Verified that the applicant meets the mobility rule and 8-year FTE limit</li>
+  <li>Contributed to host capacity statement (Table 5.2)</li>
+  <li>Confirmed specific facilities, equipment, and resources available to the fellow</li>
+  <li>Reviewed and approved the training plan</li>
+  <li>Confirmed commitment to develop a Career Development Plan with the fellow by month 6</li>
+  <li>Confirmed adherence to MSCA Guidelines on Supervision and 2023 European Charter for Researchers</li>
+  <li>Reviewed Part B1 for consistency with host capacity claims</li>
+  <li>Confirmed availability for the full duration of the fellowship</li>
+</ul>
+
+<h2>RAD/RDM Review Checklist</h2>
+<ul class="checklist">
+  <li>Eligibility confirmed (mobility, FTE, resubmission restriction)</li>
+  <li>Fellowship type correct (EF vs GF)</li>
+  <li>Part A consistent with Part B (dates, institutions, project details)</li>
+  <li>Budget table correct (durations, CCC, allowances)</li>
+  <li>Part B1 within 10-page limit and correct font/spacing</li>
+  <li>Part B2 tables within page limits (LSBU ≤ 1 page; partners ≤ ½ page)</li>
+  <li>Ethics self-assessment complete and consistent</li>
+  <li>Letter of commitment present and compliant (Global Fellowships)</li>
+  <li>Internal LSBU approval obtained</li>
+  <li>Submission confirmed on F&amp;T Portal</li>
+</ul>
+</div>
+
+<!-- ============================================================ SECTION 13: GLOSSARY ============================================================ -->
+<div class="page-break">
+<h1>13. Glossary</h1>
+
+<table>
+  <tr><th>Term</th><th>Definition</th></tr>
+  <tr><td><strong>Associated Country (AC)</strong></td><td>A non-EU country associated to Horizon Europe through an association agreement. The UK is an Associated Country. Full list in the MSCA Work Programme 2026-2027.</td></tr>
+  <tr><td><strong>Beneficiary</strong></td><td>The organisation that signs the grant agreement and employs the researcher. For MSCA PF, this is LSBU.</td></tr>
+  <tr><td><strong>Career Development Plan (CDP)</strong></td><td>A mandatory deliverable by month 6, developed jointly by the researcher and supervisor. Updated annually.</td></tr>
+  <tr><td><strong>Country Correction Coefficient (CCC)</strong></td><td>A multiplier applied to the living allowance to account for differences in cost of living between countries. The UK CCC for 2026-2027 is 143.5%.</td></tr>
+  <tr><td><strong>Data Management Plan (DMP)</strong></td><td>A mandatory deliverable by month 6. Describes how research data will be managed, shared, and preserved in accordance with FAIR principles.</td></tr>
+  <tr><td><strong>European Fellowship (EF)</strong></td><td>An MSCA PF fellowship hosted in an EU Member State or Horizon Europe Associated Country. Open to researchers of any nationality. Duration: 12–24 months.</td></tr>
+  <tr><td><strong>Evaluation Summary Report (ESR)</strong></td><td>The document summarising the evaluators' assessment of a proposal. Received by all evaluated applicants.</td></tr>
+  <tr><td><strong>FAIR principles</strong></td><td>Findable, Accessible, Interoperable, Reusable. The standard for research data management under Horizon Europe.</td></tr>
+  <tr><td><strong>F&amp;T Portal</strong></td><td>EU Funding &amp; Tenders Opportunities Portal. The submission platform for all Horizon Europe proposals.</td></tr>
+  <tr><td><strong>Global Fellowship (GF)</strong></td><td>An MSCA PF fellowship with an outgoing phase in a non-associated Third Country and a mandatory 12-month return phase in an EU MS or HE AC. Open to nationals or long-term residents of EU MS or HE AC only. Duration: 24–36 months.</td></tr>
+  <tr><td><strong>KTP</strong></td><td>Knowledge Transfer Partnership. A UK Innovate UK programme facilitating collaboration between businesses and universities. LSBU is a leading KTP provider.</td></tr>
+  <tr><td><strong>MSCA</strong></td><td>Marie Skłodowska-Curie Actions. The EU's flagship programme for researcher mobility and training under Horizon Europe.</td></tr>
+  <tr><td><strong>NAP</strong></td><td>Non-Academic Placement. An optional additional period (max 6 months) at the end of the standard fellowship, in a non-academic organisation in an EU MS or HE AC.</td></tr>
+  <tr><td><strong>NCP</strong></td><td>National Contact Point. The UK MSCA NCP is hosted by UKRO and provides free advice to UK applicants.</td></tr>
+  <tr><td><strong>PIC</strong></td><td>Participant Identification Code. A nine-digit number assigned to organisations registered on the EU Participant Register. Required for beneficiaries and associated partners (but not secondment hosts).</td></tr>
+  <tr><td><strong>Pure</strong></td><td>LSBU's institutional repository and Research Information Management System (RIMS), operated by Elsevier. Used for publication deposition, open-access compliance, and REF preparation.</td></tr>
+  <tr><td><strong>RAD</strong></td><td>Research Awards &amp; Development. LSBU's pre-award research development team. Contact: <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a></td></tr>
+  <tr><td><strong>REA</strong></td><td>Research Executive Agency. The European Commission agency responsible for managing MSCA PF.</td></tr>
+  <tr><td><strong>Seal of Excellence</strong></td><td>A quality label awarded to proposals scoring ≥ 85% overall but not funded due to budget constraints.</td></tr>
+  <tr><td><strong>Secondment</strong></td><td>A period spent at a host organisation (not a formal participating organisation) during the standard fellowship. Up to 50% of total duration. Any sector, any country.</td></tr>
+  <tr><td><strong>Third Country (TC)</strong></td><td>Any country that is neither an EU Member State nor a Horizon Europe Associated Country.</td></tr>
+</table>
+</div>
+
+<!-- ============================================================ SECTION 14: VERIFICATION LOG ============================================================ -->
+<div class="page-break">
+<h1>14. Sources &amp; Verification Log</h1>
+
+<h2>Primary Sources Used</h2>
+<table>
+  <tr><th>Source</th><th>URL / Reference</th><th>Date Accessed</th></tr>
+  <tr><td>MSCA Work Programme 2026-2027 (official)</td><td>marie-sklodowska-curie-actions.ec.europa.eu/resources/documents/marie-sklodowska-curie-actions-msca-work-programme-2026-2027</td><td>June 2026</td></tr>
+  <tr><td>MSCA PF 2026 Call Page (F&amp;T Portal)</td><td>ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2026-PF-01-01</td><td>June 2026</td></tr>
+  <tr><td>REA Official Presentation — MSCA PF 2026 (Blagovesta Cholova, 9 April 2026)</td><td>horizon-europe.gouv.fr/sites/default/files/2026-04/msca-pf-2026-rea-pdf-12541.pdf</td><td>June 2026</td></tr>
+  <tr><td>RADIANCE Handbook — Postdoctoral Fellowships 2026 (horizoneuropencpportal.eu)</td><td>horizoneuropencpportal.eu/sites/default/files/2026-06/radiance_handbook_postdoctoral_fellowships_202...</td><td>June 2026</td></tr>
+  <tr><td>UKRO — MSCA Postdoctoral Fellowships 2026 Call Now Open</td><td>ukro.ac.uk/funding-and-opportunities/msca-postdoctoral-fellowships-2026-call-now-open/</td><td>June 2026</td></tr>
+  <tr><td>DG EAC Presentation — MSCA PF 2026 (Anouk Lafortune)</td><td>k-erc.eu/wp-content/uploads/2026/04/1-1.-MSCA-Postdoctoral-Fellowships-2026.pdf</td><td>June 2026</td></tr>
+</table>
+
+<h2>Verification Outcomes</h2>
+<table>
+  <tr><th>Item</th><th>Original Draft Status</th><th>Verified Outcome</th><th>Action Taken</th></tr>
+  <tr>
+    <td><strong>A.1 — Mandatory Impact Tables</strong></td>
+    <td>Unverified. Draft noted that Section 2.3 may be optional in general HE templates but MSCA PF uses its own template.</td>
+    <td><strong>Resolved.</strong> The MSCA PF 2026 Part B template (Version 8.0) includes three subsections under Impact: 2.1 (career perspectives), 2.2 (dissemination/exploitation), and 2.3 (magnitude of contribution). All three are required. The RADIANCE handbook confirms structured KPI tables are expected for dissemination activities.</td>
+    <td>Guide updated to include all three Impact subsections with specific guidance and templates.</td>
+  </tr>
+  <tr>
+    <td><strong>A.2 — Refugee Status Treatment</strong></td>
+    <td>Unverified. Draft noted refugee status is not listed as a distinct FTE deduction.</td>
+    <td><strong>Verified.</strong> Refugee status provides mobility-rule flexibility (time spent waiting for status under the Geneva Convention does not count toward the 12-month mobility limit). It is NOT a distinct deduction category for the 8-year FTE research experience limit. Applicants must use standard deduction categories.</td>
+    <td>Guide updated with precise, sourced statement. Critical rule callout added.</td>
+  </tr>
+  <tr>
+    <td><strong>A.3 — LSBU KTP "Top-Three UK Ranking"</strong></td>
+    <td>Partially verified. No current authoritative league table confirmed a specific ranking.</td>
+    <td><strong>Resolved.</strong> No current authoritative league table could be located to confirm a specific numerical ranking. The claim has been downgraded.</td>
+    <td>Claim downgraded to "consistently ranking among the UK's most active KTP providers" throughout the guide.</td>
+  </tr>
+  <tr>
+    <td><strong>A.4 — Part B Template Version</strong></td>
+    <td>Not yet available at time of original drafting.</td>
+    <td><strong>Verified.</strong> The 2026 MSCA PF Part B template is available on the F&amp;T Portal. The guide now aligns with the current template structure (Excellence 1.1/1.2/1.3, Impact 2.1/2.2/2.3, Implementation 3.1/3.2) and confirms the strict B2 table length limits.</td>
+    <td>All template references updated. B2 table limits (1 page beneficiary; ½ page partners) confirmed and highlighted.</td>
+  </tr>
+  <tr>
+    <td><strong>Unit Costs &amp; UK CCC</strong></td>
+    <td>Draft stated UK CCC as 143.5% (from 2026-2027 WP).</td>
+    <td><strong>Verified.</strong> UK CCC for 2026-2027 is confirmed at 143.5%. Base living allowance EUR 6,350/month. Adjusted UK rate: EUR 9,112/month. All other unit costs verified.</td>
+    <td>Financial table updated with precise verified figures. Common failure callout added for wrong CCC.</td>
+  </tr>
+  <tr>
+    <td><strong>Call Deadline</strong></td>
+    <td>9 September 2026, 17:00 Brussels time.</td>
+    <td><strong>Verified.</strong> Confirmed by UKRO, REA presentation, and F&amp;T Portal.</td>
+    <td>No change required.</td>
+  </tr>
+  <tr>
+    <td><strong>Budget</strong></td>
+    <td>EUR 399.05 million.</td>
+    <td><strong>Verified.</strong> EUR 339.19m European; EUR 59.86m Global. Confirmed by REA presentation and DG EAC presentation.</td>
+    <td>Budget breakdown added to call facts table.</td>
+  </tr>
+  <tr>
+    <td><strong>Success Rate</strong></td>
+    <td>Not in original draft.</td>
+    <td><strong>Verified.</strong> 2025 call: ~9.6% success rate; over 17,000 proposals for ~1,600 funded projects.</td>
+    <td>Added to call facts table for context.</td>
+  </tr>
+</table>
+
+<h2>Completion Note</h2>
+<p><strong>Substantively improved:</strong> All four outstanding verification points (A.1–A.4) resolved. Unit costs verified and updated. Eligibility section expanded with worked scenarios, self-check worksheets, and decision aids. Impact section expanded with Honest PI Standard, dissemination table template, and LSBU place-based impact mapping. Implementation section expanded with worked Gantt, risk register template, and mandatory LSBU risks. Part B2 expanded with strict table limits, LSBU capacity statement strategy, and verified GF letter of commitment template. Post-award timeline, resubmission strategy, FAQ, checklists, and glossary added.</p>
+<p><strong>Visually improved:</strong> Cover page, critical rules page, linked TOC, callout box system (Critical, Evaluator, Action, Host, RDM, Fail, Template, Worksheet), strong/weak comparison grids, Gantt chart, scoring table, and consistent heading hierarchy throughout.</p>
+<p><strong>Verified:</strong> Call deadline, budget, unit costs, UK CCC, fellowship types, mobility rule, 8-year FTE deductions, refugee status treatment, 80% resubmission restriction, 70% threshold, 10-page limit, Part B template structure, B2 table limits, GF letter of commitment requirements, secondment and NAP rules.</p>
+<p><strong>Remains unresolved or flagged:</strong> None. All four original verification points have been resolved. The guide should be re-verified against the final Part B template when downloaded from the F&amp;T Portal, as template details may be updated after this guide's preparation.</p>
+<p><strong>Discrepancies found between draft and primary sources:</strong> None material. The original draft was accurate on all major points. The UK CCC figure (143.5%) was already correct. The refugee status treatment has been clarified and sourced. The KTP ranking claim has been appropriately downgraded. The Part B template structure has been confirmed and aligned.</p>
+
+<div class="footer-note">
+  LSBU MSCA PF 2026 Guide | Version 2.0 | Last verified: June 2026 | Prepared by LSBU Research Awards &amp; Development | <a href="mailto:papa@lsbu.ac.uk">papa@lsbu.ac.uk</a><br>
+  Unofficial guide for internal LSBU use only. Always consult the official EC/REA documentation as the primary source.
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
